@@ -21,12 +21,12 @@ namespace TableTopWarGameSimulator.Faction.Armory
 
         public void setGun()
         {
-            this.guns.Add("hello");
+            this.guns.Add("test");
         }
 
         public void setMelee()
         {
-            this.melee.Add("hello");
+            this.melee.Add("test");
         }
     }
 }
