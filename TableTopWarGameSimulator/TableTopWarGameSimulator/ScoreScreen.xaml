@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TableTopWarGameSimulator.ScoreScreen"
+             Title="ScoreScreen">
+    <Grid RowDefinitions="50, 50, 50, *"
+          ColumnDefinitions=".25*, .50*, .25*"
+          RowSpacing="10"
+          ColumnSpacing="10"
+          BackgroundColor="Grey">
+
+        <Label Text="Player Name"
+           Grid.Row="1"
+           Grid.Column="0" />
+
+        <Entry Placeholder="Enter Unit Value"
+           Grid.Row="1"
+           Grid.Column="1" />
+
+        <Button Text="Back"
+            Grid.Row="0"
+            Grid.Column="2"
+            Clicked="Button_Clicked_Back"
+            BackgroundColor="DarkRed" />
+
+        <Button Text="Edit Score"
+            Grid.Row="1"
+            Grid.Column="2"
+            Clicked="Button_Clicked_EditScore"
+            BackgroundColor="OrangeRed" />
+
+        <CollectionView Grid.Row="3" Grid.Column="1" Margin="20">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Mart</x:String>
+                    <x:String>Martin</x:String>
+                    <x:String>Thomas</x:String>
+                    <x:String>Kevin</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 5">
+                        <Frame BackgroundColor="LightGrey">
+                            <Label Text="{Binding .}"
+                                FontSize="24" />
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
