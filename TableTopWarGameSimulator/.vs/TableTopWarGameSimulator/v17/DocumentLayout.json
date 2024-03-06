@@ -3,80 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\tabletopwargamesimulator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -98,42 +98,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Morale.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Morale.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Morale.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Morale.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Morale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Title": "Faction.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:14:59.656Z",
+              "WhenOpened": "2024-02-23T14:24:11.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Fighting.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Fighting.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Fighting.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Fighting.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Fighting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAywCcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:14:51.783Z",
+              "WhenOpened": "2024-02-23T15:13:44.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Charging.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Charging.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Charging.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Charging.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Charging.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:14:41.392Z",
@@ -141,156 +141,156 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shooting.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Shooting.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Shooting.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Shooting.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Shooting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:14:34.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Movement.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Movement.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Movement.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:14:24.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Phase.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Phase.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Phase\\Phase.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Phase\\Phase.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Phase\\Phase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:13:51.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Game.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Game\\Game.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Game\\Game.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Game\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:13:44.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Gamemode.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Gamemode.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Gamemode\\Gamemode.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Gamemode.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Gamemode\\Gamemode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Gamemode.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Gamemode\\Gamemode.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Gamemode.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Gamemode\\Gamemode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:11:39.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "Objective.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Objective.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Gamemode\\Objective.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Objective.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Gamemode\\Objective.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Objective.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Gamemode\\Objective.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Objective.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Gamemode\\Objective.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:09:55.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Rule.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Rule.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Gamemode\\Rule.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Gamemode\\Rule.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Gamemode\\Rule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Rule.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Gamemode\\Rule.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Gamemode\\Rule.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Gamemode\\Rule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:07:57.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Infantry.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Infantry.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Units\\Infantry.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Infantry.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Units\\Infantry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "Fighting.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:03:46.07Z",
+              "WhenOpened": "2024-02-23T15:14:51.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Vehicle.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Units\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Vehicle.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Units\\Vehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:03:23.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
+              "Title": "Infantry.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Infantry.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Infantry.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Infantry.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Infantry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:03:46.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Beast.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Beast.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Units\\Beast.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\Beast.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Units\\Beast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:02:50.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "AbstractUnit.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\AbstractUnit.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Units\\AbstractUnit.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Units\\AbstractUnit.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Units\\AbstractUnit.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAmwC8AAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T14:38:38.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Weapon.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Weapon.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Weapon.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:27:02.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Range.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Range.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Range.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Range.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Range.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:28:00.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Melee.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Melee.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Melee.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Melee.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Melee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:30:10.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Armory.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Armory.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Armory\\Armory.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Armory.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Armory\\Armory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T14:31:29.331Z",
               "EditorCaption": ""
@@ -298,52 +298,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Melee.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Melee.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Armory\\Melee.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Melee.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Armory\\Melee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAoAAAAUAAAA",
+              "Title": "Phase.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:30:10.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Range.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Range.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Armory\\Range.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Range.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Armory\\Range.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:28:00.344Z",
+              "WhenOpened": "2024-02-23T15:13:51.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Weapon.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Armory\\Weapon.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Armory\\Weapon.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Armory\\Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwA8AAAAJAAAA",
+              "DocumentIndex": 16,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:27:02.719Z",
+              "WhenOpened": "2024-02-23T15:14:24.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Faction.cs",
-              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Faction.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Faction\\Faction.cs",
-              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Faction\\Faction.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Faction\\Faction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "DocumentIndex": 15,
+              "Title": "Shooting.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:24:11.865Z",
+              "WhenOpened": "2024-02-23T15:14:34.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Morale.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:14:59.656Z",
               "EditorCaption": ""
             },
             {
