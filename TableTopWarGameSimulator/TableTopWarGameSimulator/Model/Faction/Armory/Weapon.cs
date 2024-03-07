@@ -10,18 +10,17 @@ namespace TableTopWarGameSimulator.Model.Faction.Armory
     {
         private int distance;
         private string name;
+        private int dmg;
 
-        public Weapon(int distance, string name)
+        public Weapon(int distance, string name, int dmg)
         {
             this.distance = distance;
             this.name = name;
+            this.dmg = dmg;
         }
 
-        public int Attack()
-        {
-            return distance;
-        }
-
+        public int getDistance() { return distance; }
         public string getName() { return name; }
+        public int getDmg() { return dmg; }
     }
 }

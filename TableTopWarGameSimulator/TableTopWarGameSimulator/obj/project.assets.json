@@ -42796,24 +42796,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WackyMachine\\.nuget\\packages\\": {},
+    "C:\\Users\\Martin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
       "projectName": "TableTopWarGameSimulator",
-      "projectPath": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
-      "packagesPath": "C:\\Users\\WackyMachine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
+      "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WackyMachine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
