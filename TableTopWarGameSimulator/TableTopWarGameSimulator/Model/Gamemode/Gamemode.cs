@@ -12,6 +12,7 @@ namespace TableTopWarGameSimulator.Model.Gamemode
         private string name;
         private List<Rule> rules;
         private List<Objective> objectives;
+
         public Gamemode(string name, List<Rule> rules, List<Objective> objectives)
         {
             this.name = name;
