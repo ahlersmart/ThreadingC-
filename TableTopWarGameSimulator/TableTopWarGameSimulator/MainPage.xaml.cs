@@ -2,8 +2,6 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
@@ -11,17 +9,17 @@
 
         private void GoToFaction(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new FactionOverview());
         }
 
         private void GoToGameSummary(object sender, EventArgs e)
         {
-            
+            Navigation.PushAsync(new GameSummary());
         }
 
         private void GoToUnitOverview(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new UnitOverview());
         }
     }
 

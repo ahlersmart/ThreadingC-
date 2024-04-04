@@ -4,14 +4,18 @@
              x:Class="TableTopWarGameSimulator.FactionOverview"
              Title="FactionOverview">
     <Grid RowDefinitions="50, 50, 50, *"
-      ColumnDefinitions=".25*, .50*, .25*"
-      RowSpacing="10"
-      ColumnSpacing="10"
-      BackgroundColor="Grey">
+          ColumnDefinitions=".25*, .50*, .25*"
+          RowSpacing="10"
+          ColumnSpacing="10"
+          BackgroundColor="Grey">
+
+        <Label Text="Faction Name"
+               Grid.Row="0"
+               Grid.Column="0" />
 
         <Entry Placeholder="Enter Faction Name"
            Grid.Row="0"
-           Grid.Column="0" />
+           Grid.Column="1" />
 
         <Button Text="Back"
             Grid.Row="0"
@@ -20,7 +24,7 @@
             BackgroundColor="DarkRed" />
 
         <Button Text="Create New Faction"
-            Grid.Row="0"
+            Grid.Row="1"
             Grid.Column="1"
             Clicked="Button_Clicked_NewFaction"
             BackgroundColor="OrangeRed" />

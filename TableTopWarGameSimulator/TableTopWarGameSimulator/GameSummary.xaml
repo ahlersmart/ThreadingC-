@@ -9,24 +9,29 @@
           ColumnSpacing="10"
           BackgroundColor="Grey">
 
+        <Label Text="Tournament Name" Grid.Row="0" Grid.Column="0" />
         <Entry Placeholder="Enter Tournament Name"
                Grid.Row="0"
-               Grid.Column="0" />
+               Grid.Column="1" />
 
+        <Label Text="Tournament Point Value" Grid.Row="1" Grid.Column="0" />
         <Entry Placeholder="Enter Tournament Point Value"
                Grid.Row="1"
-               Grid.Column="0" />
+               Grid.Column="1" />
 
+        <Label Text="Tournament Primary Mission" Grid.Row="2" Grid.Column="0" />
         <Entry Placeholder="Enter Tournament Primary Mission"
-               Grid.Row="0"
-               Grid.Column="1" />
-
-        <Entry Placeholder="Enter Tournament Secundary Mission"
-               Grid.Row="1"
-               Grid.Column="1" />
-
-        <Entry Placeholder="Enter Tournament Map"
                Grid.Row="2"
+               Grid.Column="1" />
+
+        <Label Text="Tournament Secundary Mission" Grid.Row="3" Grid.Column="0" />
+        <Entry Placeholder="Enter Tournament Secundary Mission"
+               Grid.Row="3"
+               Grid.Column="1" />
+
+        <Label Text="Tournament Map" Grid.Row="4" Grid.Column="0" />
+        <Entry Placeholder="Enter Tournament Map"
+               Grid.Row="4"
                Grid.Column="1" />
 
         <Button Text="Back"
@@ -36,12 +41,14 @@
                 BackgroundColor="DarkRed" />
 
         <Button Text="Create New Tournament"
-                Grid.Row="2"
+                Grid.Row="5"
                 Grid.Column="2"
                 Clicked="Button_Clicked_NewTournament"
                 BackgroundColor="OrangeRed" />
+        
+        <!-- Dropdown Menu -->
 
-        <CollectionView Grid.Row="3" Grid.Column="1" Margin="20">
+        <CollectionView Grid.Row="6" Grid.Column="1" Margin="20">
             <CollectionView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Tournament One</x:String>

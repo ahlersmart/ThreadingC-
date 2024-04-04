@@ -6,4 +6,14 @@ public partial class ScoreScreen : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked_Back(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new GameSummary());
+    }
+
+    private void Button_Clicked_EditScore(object sender, EventArgs e)
+    {
+
+    }
 }

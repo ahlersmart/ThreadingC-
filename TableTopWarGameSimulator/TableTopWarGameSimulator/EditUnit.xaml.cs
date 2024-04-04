@@ -6,4 +6,14 @@ public partial class EditUnit : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked_EditUnit(object sender, EventArgs e)
+    {
+
+    }
+
+    private void Button_Clicked_Back(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new UnitOverview());
+    }
 }

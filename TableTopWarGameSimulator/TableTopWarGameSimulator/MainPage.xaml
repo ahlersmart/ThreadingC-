@@ -3,59 +3,62 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TableTopWarGameSimulator.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <Grid RowDefinitions="50, 50, 50, *"
+      ColumnDefinitions=".25*, .50*, .25*"
+      RowSpacing="10"
+      ColumnSpacing="10"
+      BackgroundColor="Grey">
 
-            <Label
+        <Label  Grid.Row="0" Grid.Column="0"
                 Text="Welcome to Tabletop Wargame Simulator"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2" />
 
-            <Button
+        <Button Grid.Row="1" Grid.Column="0"
                 x:Name="GameSummaryButton" HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Text="Go to game summary menu" 
                 SemanticProperties.Hint="Go to game summary menu"
                 Clicked="GoToGameSummary" />
 
-            <Button
+        <Button Grid.Row="2" Grid.Column="0"
                 x:Name="FactionButton" HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Text="Go to faction menu" 
                 SemanticProperties.Hint="Go to main menu"
                 Clicked="GoToFaction" />
 
-            <Button
+        <Button Grid.Row="3" Grid.Column="0"
                 x:Name="UnitOverview" HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Text="Go to unit overview menu" 
                 SemanticProperties.Hint="Go to unit overview menu"
                 Clicked="GoToUnitOverview" />
 
-            <CollectionView Grid.Row="3" Grid.Column="1" Margin="20">
-                <CollectionView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Faction One</x:String>
-                        <x:String>Faction Two</x:String>
-                        <x:String>Faction Three</x:String>
-                        <x:String>Faction Four</x:String>
-                        <x:String>Faction Five</x:String>
-                    </x:Array>
-                </CollectionView.ItemsSource>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid Padding="0, 5">
-                            <Frame BackgroundColor="LightGrey">
-                                <Label Text="{Binding .}"
-                                        FontSize="24" />
-                            </Frame>
-                        </Grid>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </VerticalStackLayout>
-    </ScrollView>
+        <Label Grid.Row="4" Grid.Column="0" Text="Factions" FontSize="24" TextColor="White" />
 
+        <CollectionView Margin="0, 20, 20, 20"
+                        Grid.Row="4" Grid.Column="1" >
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Faction One</x:String>
+                    <x:String>Faction Two</x:String>
+                    <x:String>Faction Three</x:String>
+                    <x:String>Faction Four</x:String>
+                    <x:String>Faction Five</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 5">
+                        <Frame BackgroundColor="White">
+                            <Label Text="{Binding .}"
+                                       FontSize="16" 
+                                       TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

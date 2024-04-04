@@ -4,15 +4,21 @@
              x:Class="TableTopWarGameSimulator.UnitOverview"
              Title="UnitOverview">
     <Grid RowDefinitions="50, 50, 50, *"
-      ColumnDefinitions=".25*, .50*, .25*"
-      RowSpacing="10"
-      ColumnSpacing="10"
-      BackgroundColor="Grey">
+          ColumnDefinitions=".25*, .50*, .25*"
+          RowSpacing="10"
+          ColumnSpacing="10"
+          BackgroundColor="Grey">
+
+        <Button Text="Back"
+                Grid.Row="0"
+                Grid.Column="2"
+                Clicked="Button_Clicked_Back"
+                BackgroundColor="DarkRed" />
 
         <Label Text="Unit Name" 
                Grid.Row="0"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Name"
                Grid.Row="0"
                Grid.Column="1" />
@@ -27,7 +33,7 @@
 
         <Label Text="Unit Movement" 
                Grid.Row="2"
-               Grid.Column="0"/>    
+               Grid.Column="0"/>
 
         <Entry Placeholder="Enter Unit Movement"
                Grid.Row="2"
@@ -35,7 +41,7 @@
 
         <Label Text="Unit Toughness" 
                Grid.Row="3"
-               Grid.Column="0"/>    
+               Grid.Column="0"/>
 
         <Entry Placeholder="Enter Unit Toughness"
                Grid.Row="3"
@@ -44,7 +50,7 @@
         <Label Text="Unit Safe" 
                Grid.Row="4"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Safe"
                Grid.Row="4"
                Grid.Column="1" />
@@ -52,7 +58,7 @@
         <Label Text="Unit Wounds" 
                Grid.Row="5"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Wounds"
                Grid.Row="5"
                Grid.Column="1" />
@@ -60,7 +66,7 @@
         <Label Text="Unit Leadership" 
                Grid.Row="6"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Leadership"
                Grid.Row="6"
                Grid.Column="1" />
@@ -76,7 +82,7 @@
         <Label Text="Unit Position Y" 
                Grid.Row="8"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Y"
                Grid.Row="8"
                Grid.Column="1" />
@@ -84,24 +90,18 @@
         <Label Text="Unit Objective Control" 
                Grid.Row="9"
                Grid.Column="0"/>
-        
+
         <Entry Placeholder="Enter Unit Objective Control"
                Grid.Row="9"
-               Grid.Column="1" />   
+               Grid.Column="1" />
 
-        <Button Text="Back"
-                Grid.Row="0"
-                Grid.Column="2"
-                Clicked="Button_Clicked_Back"
-                BackgroundColor="DarkRed" />
-        
         <!--Dropdown Box
 
         <Button Text="Edit Unit"
                 Grid.Row="11"
                 Grid.Column="1"
                 Clicked="Button_Clicked_EditUnit"
-                BackgroundColor="OrangeRed" />
+                BackgroundColor="OrangeRed" /> -->
 
         <Button Text="Create New Unit"
                 Grid.Row="10"
@@ -109,14 +109,18 @@
                 Clicked="Button_Clicked_NewUnit"
                 BackgroundColor="OrangeRed" />
 
+        <Label Grid.Row="12" 
+               Grid.Column="0"
+               Text="Existing Units"/>
+        
         <CollectionView Grid.Row="12" Grid.Column="1" Margin="20">
             <CollectionView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
-                    <x:String>Faction One</x:String>
-                    <x:String>Faction Two</x:String>
-                    <x:String>Faction Three</x:String>
-                    <x:String>Faction Four</x:String>
-                    <x:String>Faction Five</x:String>
+                    <x:String>Unit One</x:String>
+                    <x:String>Unit Two</x:String>
+                    <x:String>Unit Three</x:String>
+                    <x:String>Unit Four</x:String>
+                    <x:String>Unit Five</x:String>
                 </x:Array>
             </CollectionView.ItemsSource>
             <CollectionView.ItemTemplate>
@@ -124,7 +128,7 @@
                     <Grid Padding="0, 5">
                         <Frame BackgroundColor="LightGrey">
                             <Label Text="{Binding .}"
-                                    FontSize="24" />
+                                   FontSize="24" />
                         </Frame>
                     </Grid>
                 </DataTemplate>

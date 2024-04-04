@@ -9,14 +9,6 @@
           ColumnSpacing="10"
           BackgroundColor="Grey">
 
-        <Label Text="Player Name"
-           Grid.Row="1"
-           Grid.Column="0" />
-
-        <Entry Placeholder="Enter Unit Value"
-           Grid.Row="1"
-           Grid.Column="1" />
-
         <Button Text="Back"
             Grid.Row="0"
             Grid.Column="2"

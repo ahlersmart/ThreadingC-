@@ -8,7 +8,38 @@
       RowSpacing="10"
       ColumnSpacing="10"
       BackgroundColor="Grey">
+        
+        <!-- Dropdown Army List -->
 
-         
+        <CollectionView Grid.Row="2" Grid.Column="1" Margin="20">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Army One</x:String>
+                    <x:String>Army Two</x:String>
+                    <x:String>Army Three</x:String>
+                    <x:String>Army Four</x:String>
+                    <x:String>Army Five</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 5">
+                        <Frame BackgroundColor="LightGrey">
+                            <Label Text="{Binding .}"
+                           FontSize="24" />
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+        <!-- Dropdown Add New Army -->
+
+        <Button Text="Add New Army To Tournament" Grid.Row="3" Grid.Column="1" />
+
+        <!-- Dropdown Add New Mission -->
+
+        <Button Text="Add New Mission To Tournament" Grid.Row="4" Grid.Column="1" />
+
     </Grid>
 </ContentPage>
