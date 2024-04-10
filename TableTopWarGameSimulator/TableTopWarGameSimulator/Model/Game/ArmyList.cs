@@ -13,19 +13,31 @@ namespace TableTopWarGameSimulator.Model.Game
         private String armyName;
         private String playerName;
         private List<AbstractUnit> army;
-        private Faction.Faction faction;
+        private string faction;
 
-        public ArmyList(String armyName, String playerName, List<AbstractUnit> army, Faction.Faction faction) {
+        public ArmyList(string armyName, string playerName, string faction)
+        {
             this.armyName = armyName;
-            this.playerName = playerName;  
-            this.army = army;
+            this.playerName = playerName;
             this.faction = faction;
+            army = new List<AbstractUnit>(); // Initialize the army list
+
+
         }
 
-        public String getArmyName() {  return armyName; }
-        public String getPlayerName() {  return playerName; }
-        public List<AbstractUnit> getArmy() {  return army; }
-        public Faction.Faction getFaction() {  return faction; }
+        public ArmyList(string armyName, string playerName, string faction, List<AbstractUnit> army)
+             : this(armyName, playerName, faction)
+        {
+            this.army = army;
+        }
 
+        public String getArmyName() { return armyName; }
+        public void setArmyName(string armyName) { this.armyName = armyName; }
+        public String getPlayerName() { return playerName; }
+        public void setPlayerName(string playerName) { this.playerName = playerName; }
+        public string getFaction() { return faction; }
+        public void setFaction(string faction) { this.faction = faction; }
+        public List<AbstractUnit> getArmy() { return army; }
+        public void setArmy(List<AbstractUnit> army) { this.army = army; }
     }
 }

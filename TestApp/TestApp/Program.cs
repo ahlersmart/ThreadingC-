@@ -1,59 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using TestApp.Faction;
-using TestApp.Faction.Armory;
-using TestApp.Faction.Units;
-using Range = TestApp.Faction.Armory.Range;
+using TestApp.Model.Faction;
+using TestApp.Model.Faction.Armory;
+using TestApp.Model.Faction.Units;
+using TestApp.Model.Game.Gamemode;
+using TestApp.Model.Game;
+using TestApp.Model;
+using Range = TestApp.Model.Faction.Armory.Range;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Faction faction = new Faction();
 
-        // Create weapons for units
-        var melee = new Melee(11, "Buzzer");
-        var range = new Range(11, "Pew Pew");
+        Application application = new Application();
 
-        // Add weapons to the armory
-        var armory = new Armory();
-        armory.addMelee(melee);
-        armory.addRange(range);
+        // Create game mode
+        Gamemode gamemode = new Gamemode("Standard", new List<Rule>(), new List<Objective>());
 
+        // Create armies
+        Faction redFaction = new Faction("Red Faction");
+        Faction blueFaction = new Faction("Blue Faction");
 
-        // Create units using faction class
-        faction.addNewUnit("Beast", "Warg", 1, 12, 20, 3, 0, 1, 1, 3, 0, armory.getMelee(), armory.getRange());
-        faction.addNewUnit("Infantry", "Orc", 1, 12, 20, 3, 0, 1, 1, 3, 1, armory.getMelee(), armory.getRange());
-        faction.addNewUnit("Vehicle", "Wheels", 1, 12, 20, 3, 0, 1, 1, 3, 0, armory.getMelee(), armory.getRange());
+        // Add units to factions
+        redFaction.addNewUnit("Beast", "Red Beast 1", 1, 12, 20, 3, 0, 1, 1, 3, 0, null, null);
+        redFaction.addNewUnit("Infantry", "Red Infantry 1", 1, 12, 20, 3, 0, 1, 1, 3, 1, null, null);
 
-        // Display all units in the faction
-        Console.WriteLine("Units in faction:");
-        foreach (var unit in faction.getUnits())
-        {
-            Console.WriteLine(unit.getName());
-        }
+        blueFaction.addNewUnit("Beast", "Blue Beast 1", 1, 12, 20, 3, 0, 1, 1, 3, 0, null, null);
+        blueFaction.addNewUnit("Infantry", "Blue Infantry 1", 1, 12, 20, 3, 0, 1, 1, 3, 1, null, null);
 
-        // Define the desired army composition
-        Dictionary<string, int> unitCounts = new Dictionary<string, int>
-        {
-            { "Warg", 3 },
-            { "Orc", 2 },
-            { "Wheels", 1 }
-        };
+        // Create army lists
+        ArmyList redArmyList = new ArmyList("Red Army", "Player 1", "Red Faction", redFaction.getUnits());
+        ArmyList blueArmyList = new ArmyList("Blue Army", "Player 2", "Blue Faction", blueFaction.getUnits());
 
-        try
-        {
-            // Create the army using faction class
-            List<AbstractUnit> army = faction.createArmy(unitCounts);
-            Console.WriteLine("\nArmy created successfully:");
-            foreach (var unit in army)
-            {
-                Console.WriteLine(unit.getName());
-            }
-        }
-        catch (ArgumentException ex)
-        {
-            Console.WriteLine("\nError creating army: " + ex.Message);
-        }
+        // Create the game
+        application.createGame(gamemode, redArmyList, blueArmyList);
     }
 }

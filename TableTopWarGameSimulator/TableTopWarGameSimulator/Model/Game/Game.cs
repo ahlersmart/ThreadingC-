@@ -8,20 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using TableTopWarGameSimulator.Model.Game;
 using TableTopWarGameSimulator.Model.Game.Phase;
-using TableTopWarGameSimulator.Model.Gamemode;
 
 namespace TableTopWarGameSimulator.Model.Game
 {
     internal class Game
     {
-        private Gamemode.Gamemode gamemode;
+        private Model.Game.Gamemode.Gamemode gamemode;
         private List<Phase.Phase> phases;
         private Phase.Phase currentPhase;
         private ArmyList redArmy;
         private ArmyList blueArmy;
         private Boolean playerRound;
 
-        public Game(Gamemode.Gamemode gamemode, ArmyList blueArmy, ArmyList redArmy)
+        public Game(Model.Game.Gamemode.Gamemode gamemode, ArmyList blueArmy, ArmyList redArmy)
         {
             this.gamemode = gamemode;
             this.phases = new List<Phase.Phase>();
