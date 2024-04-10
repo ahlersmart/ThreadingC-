@@ -12,12 +12,12 @@ namespace TestApp.Game
 {
     internal class Game
     {
-        private Gamemode gamemode;
-        private List<Phase> phases;
+       // private Gamemode gamemode;
+       // private List<Phase> phases;
 
-        public Game() {
-            this.phases = new List<Phase>();
-        }
+        //public Game() {
+        //    this.phases = new List<Phase>();
+        //}
 
     }
 }

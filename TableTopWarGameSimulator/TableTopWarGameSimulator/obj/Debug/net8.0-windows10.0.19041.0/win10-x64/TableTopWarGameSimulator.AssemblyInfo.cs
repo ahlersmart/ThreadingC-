@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TableTopWarGameSimulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+32630c2bbd1f4addcb3bd0af135d39c1240cac61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9714af4f6a7ab45824873b28bc15ac1130ad0d03")]
 [assembly: System.Reflection.AssemblyProductAttribute("TableTopWarGameSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TableTopWarGameSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
