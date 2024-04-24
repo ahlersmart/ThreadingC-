@@ -13,6 +13,7 @@ namespace TableTopWarGameSimulator.Model.Faction
     internal class Faction
     {
         private List<AbstractUnit> units;
+        private SemaphoreSlim semaphore = new SemaphoreSlim(4);
 
         public Faction()
         {
@@ -82,7 +83,14 @@ namespace TableTopWarGameSimulator.Model.Faction
                 {
                     for (int i = 0; i < amount; i++)
                     {
-                        newArmy.Add(existingUnit);
+                        Thread addUnitToArmyThread = new Thread(() =>
+                        {
+                            semaphore.Wait();
+                            newArmy.Add(existingUnit);
+                            semaphore.Release();
+                        });
+
+                        addUnitToArmyThread.Start();
                     }
                 }
                 else
@@ -91,6 +99,9 @@ namespace TableTopWarGameSimulator.Model.Faction
                 }
 
             }
+
+            Thread.Sleep( 1000 );
+            while (semaphore.CurrentCount != 4) { }
 
             return newArmy;
         }
