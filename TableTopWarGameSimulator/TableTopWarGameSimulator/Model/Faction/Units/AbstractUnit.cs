@@ -65,20 +65,6 @@ namespace TableTopWarGameSimulator
 
         public Armory armory { get; set; }
 
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons)
-        {
-            this._name = name;
-            this._value = value;
-            this._movement = movement;
-            this._toughness = toughness;
-            this._safe = safe;
-            this._wounds = wounds;
-            this._maxWounds = wounds;
-            this._leadership = leadership;
-            this._armory = new Armory(rangeWeapons, meleeWeapons);
-            ifUsed = false;
-        }
-
         protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, Armory armory)
         {
             this._name = name;
@@ -90,7 +76,11 @@ namespace TableTopWarGameSimulator
             this._maxWounds = wounds;
             this._leadership = leadership;
             this._armory = armory;
-            ifUsed = false;
+            this.ifUsed = false;
+        }
+
+        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : this(name, value,  movement, toughness, safe, wounds, leadership, new Armory(rangeWeapons, meleeWeapons))
+        {
         }
 
         public List<Range> getRangeWeapons() { return this._armory.rangeList; }

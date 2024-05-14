@@ -25,9 +25,8 @@ namespace TableTopWarGameSimulator
             this.units = new List<AbstractUnit>();
         }
 
-        public Faction(string name, List<AbstractUnit> units)
+        public Faction(string name, List<AbstractUnit> units) : this(name)
         {
-            this.name = name;
             this.units = units;
         }
 
