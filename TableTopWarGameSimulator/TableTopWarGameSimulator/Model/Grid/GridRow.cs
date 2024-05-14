@@ -196,179 +196,146 @@ namespace TableTopWarGameSimulator
             if (column >= 0 && column <= 20)
             {
                 string image = GridRow.getImage(item);
-                switch(column)
+                if (image != "")
                 {
-                    case 1:
-                        this.GridColumn1 = image;
-                        break;
-                    case 2:
-                        this.GridColumn2 = image;
-                        break;
-                    case 3:
-                        this.GridColumn3 = image;
-                        break;
-                    case 4:
-                        this.GridColumn4 = image;
-                        break;
-                    case 5:
-                        this.GridColumn5 = image;
-                        break;
-                    case 6:
-                        this.GridColumn6 = image;
-                        break;
-                    case 7:
-                        this.GridColumn7 = image;
-                        break;
-                    case 8:
-                        this.GridColumn8 = image;
-                        break;
-                    case 9:
-                        this.GridColumn9 = image;
-                        break;
-                    case 10:
-                        this.GridColumn10 = image;
-                        break;
-                    case 11:
-                        this.GridColumn11 = image;
-                        break;
-                    case 12:
-                        this.GridColumn12 = image;
-                        break;
-                    case 13:
-                        this.GridColumn13 = image;
-                        break;
-                    case 14:
-                        this.GridColumn14 = image;
-                        break;
-                    case 15:
-                        this.GridColumn15 = image;
-                        break;
-                    case 16:
-                        this.GridColumn16 = image;
-                        break;
-                    case 17:
-                        this.GridColumn17 = image;
-                        break;
-                    case 18:
-                        this.GridColumn18 = image;
-                        break;
-                    case 19:
-                        this.GridColumn19 = image;
-                        break;
-                    case 20:
-                        this.GridColumn20 = image;
-                        break;
+                    switch (column)
+                    {
+                        case 1:
+                            this.GridColumn1 = image;
+                            break;
+                        case 2:
+                            this.GridColumn2 = image;
+                            break;
+                        case 3:
+                            this.GridColumn3 = image;
+                            break;
+                        case 4:
+                            this.GridColumn4 = image;
+                            break;
+                        case 5:
+                            this.GridColumn5 = image;
+                            break;
+                        case 6:
+                            this.GridColumn6 = image;
+                            break;
+                        case 7:
+                            this.GridColumn7 = image;
+                            break;
+                        case 8:
+                            this.GridColumn8 = image;
+                            break;
+                        case 9:
+                            this.GridColumn9 = image;
+                            break;
+                        case 10:
+                            this.GridColumn10 = image;
+                            break;
+                        case 11:
+                            this.GridColumn11 = image;
+                            break;
+                        case 12:
+                            this.GridColumn12 = image;
+                            break;
+                        case 13:
+                            this.GridColumn13 = image;
+                            break;
+                        case 14:
+                            this.GridColumn14 = image;
+                            break;
+                        case 15:
+                            this.GridColumn15 = image;
+                            break;
+                        case 16:
+                            this.GridColumn16 = image;
+                            break;
+                        case 17:
+                            this.GridColumn17 = image;
+                            break;
+                        case 18:
+                            this.GridColumn18 = image;
+                            break;
+                        case 19:
+                            this.GridColumn19 = image;
+                            break;
+                        case 20:
+                            this.GridColumn20 = image;
+                            break;
+                    }
                 }
             }
         }
 
-        public void setUnit(int column, AbstractUnit unit, int Army)
+        public void setUnit(int column, AbstractUnit unit, int army)
         {
             if (column >= 0 && column <= 20)
             {
-
-                string image = GridRow.floor;
-                if (unit is Beast)
+                string image = GridRow.getImage(unit, army);
+                if (image != "")
                 {
-                    if (Army == 0)
+                    this.units[column] = Tuple.Create(unit, army);
+                    switch (column)
                     {
-                        image = GridRow.beastBlue;
-                        units[column] = Tuple.Create(unit, Army);
-                    } 
-                    else if (Army == 1)
-                    {
-                        image = GridRow.beastRed;
-                        units[column] = Tuple.Create(unit, Army);
+                        case 1:
+                            this.GridColumn1 = image;
+                            break;
+                        case 2:
+                            this.GridColumn2 = image;
+                            break;
+                        case 3:
+                            this.GridColumn3 = image;
+                            break;
+                        case 4:
+                            this.GridColumn4 = image;
+                            break;
+                        case 5:
+                            this.GridColumn5 = image;
+                            break;
+                        case 6:
+                            this.GridColumn6 = image;
+                            break;
+                        case 7:
+                            this.GridColumn7 = image;
+                            break;
+                        case 8:
+                            this.GridColumn8 = image;
+                            break;
+                        case 9:
+                            this.GridColumn9 = image;
+                            break;
+                        case 10:
+                            this.GridColumn10 = image;
+                            break;
+                        case 11:
+                            this.GridColumn11 = image;
+                            break;
+                        case 12:
+                            this.GridColumn12 = image;
+                            break;
+                        case 13:
+                            this.GridColumn13 = image;
+                            break;
+                        case 14:
+                            this.GridColumn14 = image;
+                            break;
+                        case 15:
+                            this.GridColumn15 = image;
+                            break;
+                        case 16:
+                            this.GridColumn16 = image;
+                            break;
+                        case 17:
+                            this.GridColumn17 = image;
+                            break;
+                        case 18:
+                            this.GridColumn18 = image;
+                            break;
+                        case 19:
+                            this.GridColumn19 = image;
+                            break;
+                        case 20:
+                            this.GridColumn20 = image;
+                            break;
                     }
-                }
-                else if (unit is Infantry)
-                {
-                    if (Army == 0)
-                    {
-                        image = GridRow.infantryBlue;
-                        units[column] = Tuple.Create(unit, Army);
-                    }
-                    else if (Army == 1)
-                    {
-                        image = GridRow.infantryRed;
-                        units[column] = Tuple.Create(unit, Army);
-                    }
-                }
-                else if (unit is Vehicle)
-                {
-                    if (Army == 0)
-                    {
-                        image = GridRow.tankBlue;
-                        units[column] = Tuple.Create(unit, Army);
-                    }
-                    else if (Army == 1)
-                    {
-                        image = GridRow.tankRed;
-                        units[column] = Tuple.Create(unit, Army);
-                    }
-                }
-                switch (column)
-                {
-                    case 1:
-                        this.GridColumn1 = image;
-                        break;
-                    case 2:
-                        this.GridColumn2 = image;
-                        break;
-                    case 3:
-                        this.GridColumn3 = image;
-                        break;
-                    case 4:
-                        this.GridColumn4 = image;
-                        break;
-                    case 5:
-                        this.GridColumn5 = image;
-                        break;
-                    case 6:
-                        this.GridColumn6 = image;
-                        break;
-                    case 7:
-                        this.GridColumn7 = image;
-                        break;
-                    case 8:
-                        this.GridColumn8 = image;
-                        break;
-                    case 9:
-                        this.GridColumn9 = image;
-                        break;
-                    case 10:
-                        this.GridColumn10 = image;
-                        break;
-                    case 11:
-                        this.GridColumn11 = image;
-                        break;
-                    case 12:
-                        this.GridColumn12 = image;
-                        break;
-                    case 13:
-                        this.GridColumn13 = image;
-                        break;
-                    case 14:
-                        this.GridColumn14 = image;
-                        break;
-                    case 15:
-                        this.GridColumn15 = image;
-                        break;
-                    case 16:
-                        this.GridColumn16 = image;
-                        break;
-                    case 17:
-                        this.GridColumn17 = image;
-                        break;
-                    case 18:
-                        this.GridColumn18 = image;
-                        break;
-                    case 19:
-                        this.GridColumn19 = image;
-                        break;
-                    case 20:
-                        this.GridColumn20 = image;
-                        break;
                 }
             }
         }
@@ -394,9 +361,49 @@ namespace TableTopWarGameSimulator
                 case "redbeast":
                     return GridRow.beastRed;
                 default:
-                    return GridRow.floor;
+                    return "";
             }
         }
-        
+
+        static string getImage(AbstractUnit unit, int Army)
+        {
+            if(Army == 0 || Army == 1)
+            {
+                if ( unit is Beast )
+                {
+                    if (Army == 0)
+                    {
+                        return GridRow.beastBlue;
+                    } else if (Army == 1)
+                    {
+                        return GridRow.beastRed;
+                    }
+                } 
+                else if ( unit is Vehicle )
+                {
+                    if (Army == 0)
+                    {
+                        return GridRow.tankBlue;
+                    }
+                    else if (Army == 1)
+                    {
+                        return GridRow.tankRed;
+                    }
+                } 
+                else if ( unit is Infantry )
+                {
+                    if (Army == 0)
+                    {
+                        return GridRow.infantryBlue;
+                    }
+                    else if (Army == 1)
+                    {
+                        return GridRow.infantryRed;
+                    }
+                }
+            }
+            return "";
+        }
+
     }
 }
