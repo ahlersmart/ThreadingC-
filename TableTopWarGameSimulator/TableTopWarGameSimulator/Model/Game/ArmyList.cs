@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -48,6 +49,7 @@ namespace TableTopWarGameSimulator
 
         }
 
+        [JsonConstructor]
         public ArmyList(string armyName, string playerName, string faction, List<AbstractUnit> army) : this(armyName, playerName, faction)
         {
             this._army = army;

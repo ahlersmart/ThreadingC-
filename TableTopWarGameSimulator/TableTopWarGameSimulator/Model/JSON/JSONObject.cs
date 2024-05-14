@@ -69,23 +69,15 @@ namespace TableTopWarGameSimulator
         // Method to save a List of JSONStrings to a File
         public static void WriteJSONToFile(List<string> jsonStrings, string FileName)
         {
-            /*
-            var directory = new DirectoryInfo(null ?? Directory.GetCurrentDirectory());
-            while (directory != null && !directory.GetFiles("*.sln").Any())
-            {
-                directory = directory.Parent;
-            }
-            string path = directory.FullName;
-            */
-            string path = @"E:\Github Desktop\Repositories\Design Patterns\DesignPatterns\SaveData";
-            //@"D:\Users\frank\source\repos\DesignPatterns\SaveData";
+            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
+            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
             //@".\SaveData";
             path = Path.Combine(path, FileName);
             if (!File.Exists(path))
             {
                 File.Create(path).Close();
             }
-            string jsonString = JSONObject.ListToJSON(jsonStrings);
+            string jsonString = JSONObject.ObjectToJSON(jsonStrings);
             using (StreamWriter outputFile = new StreamWriter(path))
             {
                 outputFile.Write(jsonString);
@@ -95,25 +87,15 @@ namespace TableTopWarGameSimulator
         // Method to read a JSONFile
         public static List<string> ReadJSONFile(string FileName)
         {
-            /*
-            var directory = new DirectoryInfo(null ?? Directory.GetCurrentDirectory());
-            Debug.WriteLine(directory.FullName);
-            while (directory != null && !directory.GetFiles("*.sln").Any())
-            {
-                directory = directory.Parent;
-            }
-            string path = directory.FullName;
-            */
-
-            string path = @"E:\Github Desktop\Repositories\Design Patterns\DesignPatterns\SaveData";
-            //@"D:\Users\frank\source\repos\DesignPatterns\SaveData";
+            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
+            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
             //@".\SaveData";
             string jsonString = "";
             using (StreamReader sr = new StreamReader(Path.Combine(path, FileName)))
             {
                 jsonString = sr.ReadToEnd();
             }
-            List<string> list = JSONObject.JSONToList<string>(jsonString);
+            List<string> list = (List<string>) JSONObject.JSONToObject(jsonString);
             return list;
         }
     }

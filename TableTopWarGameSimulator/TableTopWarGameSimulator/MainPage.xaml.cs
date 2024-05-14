@@ -74,6 +74,22 @@ namespace TableTopWarGameSimulator
             ArmyList RedArmy = new ArmyList("RedArmy", "Player2", "Faction1", army);
             this.armies.Add(blueArmy);
             this.armies.Add(RedArmy);
+            
+            /**
+            List<string> list = new();
+            foreach(ArmyList al in this.armies)
+            {
+                list.Add(al.toJSON());
+            }
+            JSONObject.WriteJSONToFile(list, "ArmyLists.json");
+
+            List<string> list2 = JSONObject.ReadJSONFile("ArmyLists.json");
+            List<ArmyList> armies2 = new();
+            foreach (string s in list2)
+            {
+                armies2.Add(ArmyList.fromJSON(s));
+            }
+            **/
         }
     }
 
