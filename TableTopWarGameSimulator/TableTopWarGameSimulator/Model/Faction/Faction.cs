@@ -9,9 +9,15 @@ namespace TableTopWarGameSimulator
 {
     internal class Faction
     {
-        private string name;
+        private string _name;
         private List<AbstractUnit> units;
         private SemaphoreSlim semaphore = new SemaphoreSlim(4);
+
+        public string name
+        {
+            get => this._name;
+            set => this._name = value;
+        }
 
         public Faction(string name)
         {
