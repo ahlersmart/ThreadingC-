@@ -148,7 +148,7 @@ namespace TableTopWarGameSimulator
             set => this._GridColumn20 = value;
         }
 
-        private AbstractUnit[] units;
+        private Tuple<AbstractUnit, int>[] units;
 
         static readonly string floor = @".\images\Floor.png";
         static readonly string wall = @".\images\Wall.png";
@@ -188,7 +188,7 @@ namespace TableTopWarGameSimulator
             this._GridColumn19 = floor;
             this._GridColumn20 = floor;
 
-            units = new AbstractUnit[20];
+            units = new Tuple<AbstractUnit, int>[20];
         }
 
         public void setImage(int column, string item)
@@ -273,12 +273,12 @@ namespace TableTopWarGameSimulator
                     if (Army == 0)
                     {
                         image = GridRow.beastBlue;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     } 
                     else if (Army == 1)
                     {
                         image = GridRow.beastRed;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     }
                 }
                 else if (unit is Infantry)
@@ -286,12 +286,12 @@ namespace TableTopWarGameSimulator
                     if (Army == 0)
                     {
                         image = GridRow.infantryBlue;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     }
                     else if (Army == 1)
                     {
                         image = GridRow.infantryRed;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     }
                 }
                 else if (unit is Vehicle)
@@ -299,12 +299,12 @@ namespace TableTopWarGameSimulator
                     if (Army == 0)
                     {
                         image = GridRow.tankBlue;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     }
                     else if (Army == 1)
                     {
                         image = GridRow.tankRed;
-                        units[column] = unit;
+                        units[column] = Tuple.Create(unit, Army);
                     }
                 }
                 switch (column)
