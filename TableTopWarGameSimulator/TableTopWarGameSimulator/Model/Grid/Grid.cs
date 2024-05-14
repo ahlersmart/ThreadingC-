@@ -32,7 +32,7 @@ namespace TableTopWarGameSimulator
         {
             int row = 0;
             int column = 1;
-            foreach (AbstractUnit unit in army1.getArmy())
+            foreach (AbstractUnit unit in army1.army)
             {
                 if (unit is Beast)
                 {
@@ -60,7 +60,7 @@ namespace TableTopWarGameSimulator
 
             row = this._grid.Count;
             column = 1;
-            foreach (AbstractUnit unit in army2.getArmy())
+            foreach (AbstractUnit unit in army2.army)
             {
                 if (unit is Beast)
                 {
