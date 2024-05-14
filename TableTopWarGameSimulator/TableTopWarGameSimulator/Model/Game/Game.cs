@@ -9,57 +9,71 @@ namespace TableTopWarGameSimulator
 {
     internal class Game
     {
-        private Gamemode gamemode;
-        private List<Phase> phases;
-        private Phase currentPhase;
-        private ArmyList redArmy;
-        private ArmyList blueArmy;
-        private Boolean playerRound;
+        private Gamemode _gamemode;
+        private Phase[] phases;
+        private int _currentPhase;
+        private Grid _grid;
+        private int _playerRound;
 
-        public Game(Gamemode gamemode, ArmyList blueArmy, ArmyList redArmy)
+        public Gamemode gamemode
         {
-            this.gamemode = gamemode;
-            this.phases = new List<Phase>();
+            get => this._gamemode;
+            set => this._gamemode = value;
+        }
+
+        public Phase currentPhase
+        {
+            get => this.phases[this._currentPhase];
+        }
+
+        public Grid grid
+        {
+            get => this._grid;
+            set => this._grid = value;
+        }
+        
+        public int playerRound
+        {
+            get => this._playerRound;
+            set => this._playerRound = value;
+        }
+
+        public Game(ArmyList blueArmy, ArmyList redArmy)
+        {
+            this._gamemode = new Gamemode("40kLite");
+            this.phases = new Phase[3];
             setPhases();
-            this.blueArmy = blueArmy;
-            this.redArmy = redArmy;
+            _grid = new Grid(blueArmy, redArmy);
             setRound();
         }
 
         public void setPhases()
         {
-            var morale = new Morale();
             var movement = new Movement();
             var shooting = new Shooting();
-            var charging = new Charging();
             var fighting = new Fighting();
 
-            this.phases.Add(morale);   // first phase
-            this.phases.Add(movement); // second phase
-            this.phases.Add(shooting); // third phase
-            this.phases.Add(charging); // fourth phase  
-            this.phases.Add(fighting); // fifth phase 
+            this.phases[0] = movement;
+            this.phases[1] = shooting;
+            this.phases[2] = fighting;
 
-            this.currentPhase = this.phases[0];
+            this._currentPhase = 0;
         }
 
-        public void setNextPhase()
+        public void nextPhase()
         {
-            for (int i = 1; i < this.phases.Count; i++)
+            if (this._currentPhase == 2) 
+            { 
+                this._currentPhase = 0;
+            } else
             {
-                if (phases[i] == currentPhase)
-                {
-                    currentPhase = phases[i + 1];
-                    break;
-                }
+                this._currentPhase++;
             }
         }
-
-        public Phase getCurrentPhas() {  return currentPhase; }
         
-        public String resign(ArmyList army)
+        public string resign(int army)
         {
-            if (army == redArmy)
+            if (army == 0)
             {
                 return "Blue Army has won.";
             } else
@@ -78,29 +92,25 @@ namespace TableTopWarGameSimulator
         public void setRound()
         {
             Random rand = new Random();
-            int number = rand.Next(1, 2);
-
-            switch (number)
-            {
-                case 1:
-                    this.playerRound = true; // true sets blueArmy as first
-                    break;
-                case 2:
-                    this.playerRound = false; // false sets redArmy as first
-                    break;
-
-            }
+            int number = rand.Next(0, 1);
+            this._playerRound = number;
         }
 
         public void nextRound()
         {
-            if(playerRound == true)
+            if (this._playerRound == 0)
             {
-                playerRound = false;
-            } else
+                this._playerRound = 1;
+            } 
+            else if (this._playerRound == 1)
             {
-                playerRound = true;
+                this._playerRound = 0;
             }
+        }
+
+        public Boolean move(int currentRow, int currentColumn, int newRow, int newColumn)
+        {
+            return this._grid.move(currentRow, currentColumn, newRow, newColumn);
         }
 
 

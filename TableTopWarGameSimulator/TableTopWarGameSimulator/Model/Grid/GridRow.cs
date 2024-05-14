@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,13 @@ namespace TableTopWarGameSimulator
 { 
     internal class GridRow
     {
+        private string _GridColumn0;
+        public string GridColumn0
+        {
+            get => this._GridColumn0;
+            set => this._GridColumn0 = value;
+        }
+
         private string _GridColumn1;
         public string GridColumn1
         {
@@ -141,13 +149,6 @@ namespace TableTopWarGameSimulator
             set => this._GridColumn19 = value;
         }
 
-        private string _GridColumn20;
-        public string GridColumn20
-        {
-            get => this._GridColumn20;
-            set => this._GridColumn20 = value;
-        }
-
         private Tuple<AbstractUnit, int>[] units;
 
         static readonly string floor = @".\images\Floor.png";
@@ -167,6 +168,7 @@ namespace TableTopWarGameSimulator
 
         private void inizialize()
         {
+            this._GridColumn0 = floor;
             this._GridColumn1 = floor;
             this._GridColumn2 = floor;
             this._GridColumn3 = floor;
@@ -186,20 +188,34 @@ namespace TableTopWarGameSimulator
             this._GridColumn17 = floor;
             this._GridColumn18 = floor;
             this._GridColumn19 = floor;
-            this._GridColumn20 = floor;
 
             units = new Tuple<AbstractUnit, int>[20];
         }
 
+        public Tuple<AbstractUnit, int> getUnit(int column)
+        {
+            if (column >= 0 && column < 20)
+            {
+                return this.units[column];
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         public void setImage(int column, string item)
         {
-            if (column >= 0 && column <= 20)
+            if (column >= 0 && column < 20)
             {
                 string image = GridRow.getImage(item);
                 if (image != "")
                 {
                     switch (column)
                     {
+                        case 0:
+                            this.GridColumn0 = image;
+                            break;
                         case 1:
                             this.GridColumn1 = image;
                             break;
@@ -256,9 +272,6 @@ namespace TableTopWarGameSimulator
                             break;
                         case 19:
                             this.GridColumn19 = image;
-                            break;
-                        case 20:
-                            this.GridColumn20 = image;
                             break;
                     }
                 }
@@ -267,7 +280,7 @@ namespace TableTopWarGameSimulator
 
         public void setUnit(int column, AbstractUnit unit, int army)
         {
-            if (column >= 0 && column <= 20)
+            if (column >= 0 && column < 20)
             {
                 string image = GridRow.getImage(unit, army);
                 if (image != "")
@@ -275,6 +288,9 @@ namespace TableTopWarGameSimulator
                     this.units[column] = Tuple.Create(unit, army);
                     switch (column)
                     {
+                        case 0:
+                            this.GridColumn0 = image;
+                            break;
                         case 1:
                             this.GridColumn1 = image;
                             break;
@@ -331,9 +347,6 @@ namespace TableTopWarGameSimulator
                             break;
                         case 19:
                             this.GridColumn19 = image;
-                            break;
-                        case 20:
-                            this.GridColumn20 = image;
                             break;
                     }
                 }
@@ -403,6 +416,21 @@ namespace TableTopWarGameSimulator
                 }
             }
             return "";
+        }
+
+        public Tuple<AbstractUnit, int> removeUnit( int column )
+        {
+            if ( column >= 0 && column < 20 )
+            {
+                this.setImage(column, "floor");
+                Tuple<AbstractUnit, int> temp = units[column];
+                units[column] = null;
+                return temp;
+            } 
+            else
+            {
+                return null;
+            }
         }
 
     }
