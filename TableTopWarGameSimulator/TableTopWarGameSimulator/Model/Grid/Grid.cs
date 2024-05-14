@@ -34,18 +34,7 @@ namespace TableTopWarGameSimulator
             int column = 1;
             foreach (AbstractUnit unit in army1.army)
             {
-                if (unit is Beast)
-                {
-                    this._grid[row].setImage(column, "bluebeast");
-                }
-                else if (unit is Infantry)
-                {
-                    this._grid[row].setImage(column, "bluesoldier");
-                }
-                else if (unit is Vehicle)
-                {
-                    this._grid[row].setImage(column, "bluetank");
-                }
+                this._grid[row].setUnit(column, unit, 0);
 
                 if (column == 20)
                 {
@@ -62,18 +51,7 @@ namespace TableTopWarGameSimulator
             column = 1;
             foreach (AbstractUnit unit in army2.army)
             {
-                if (unit is Beast)
-                {
-                    this._grid[row].setImage(column, "redbeast");
-                }
-                else if (unit is Infantry)
-                {
-                    this._grid[row].setImage(column, "redsoldier");
-                }
-                else if (unit is Vehicle)
-                {
-                    this._grid[row].setImage(column, "redtank");
-                }
+                this._grid[row].setUnit(column, unit, 1);
 
                 if (column == 20)
                 {
@@ -94,6 +72,14 @@ namespace TableTopWarGameSimulator
                 this.grid[row].setImage(column, item);
             }
         }
-           
+
+        public void setUnit(int row, int column, AbstractUnit unit, int Army)
+        {
+            if (row >= 0 && row <= 20)
+            {
+                this.grid[row].setUnit(column, unit, Army);
+            }
+        }
+
     }
 }

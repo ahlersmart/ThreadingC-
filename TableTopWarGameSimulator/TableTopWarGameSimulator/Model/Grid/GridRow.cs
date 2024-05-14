@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Android.InputMethodServices.Keyboard;
 
 namespace TableTopWarGameSimulator
 { 
@@ -148,6 +149,8 @@ namespace TableTopWarGameSimulator
             set => this._GridColumn20 = value;
         }
 
+        private AbstractUnit[] units;
+
         static readonly string floor = @".\images\Floor.png";
         static readonly string wall = @".\images\Wall.png";
         static readonly string tankBlue = @".\images\BlueTank.png";
@@ -185,6 +188,8 @@ namespace TableTopWarGameSimulator
             this._GridColumn18 = floor;
             this._GridColumn19 = floor;
             this._GridColumn20 = floor;
+
+            units = new AbstractUnit[20];
         }
 
         public void setImage(int column, string item)
@@ -193,6 +198,117 @@ namespace TableTopWarGameSimulator
             {
                 string image = GridRow.getImage(item);
                 switch(column)
+                {
+                    case 1:
+                        this.GridColumn1 = image;
+                        break;
+                    case 2:
+                        this.GridColumn2 = image;
+                        break;
+                    case 3:
+                        this.GridColumn3 = image;
+                        break;
+                    case 4:
+                        this.GridColumn4 = image;
+                        break;
+                    case 5:
+                        this.GridColumn5 = image;
+                        break;
+                    case 6:
+                        this.GridColumn6 = image;
+                        break;
+                    case 7:
+                        this.GridColumn7 = image;
+                        break;
+                    case 8:
+                        this.GridColumn8 = image;
+                        break;
+                    case 9:
+                        this.GridColumn9 = image;
+                        break;
+                    case 10:
+                        this.GridColumn10 = image;
+                        break;
+                    case 11:
+                        this.GridColumn11 = image;
+                        break;
+                    case 12:
+                        this.GridColumn12 = image;
+                        break;
+                    case 13:
+                        this.GridColumn13 = image;
+                        break;
+                    case 14:
+                        this.GridColumn14 = image;
+                        break;
+                    case 15:
+                        this.GridColumn15 = image;
+                        break;
+                    case 16:
+                        this.GridColumn16 = image;
+                        break;
+                    case 17:
+                        this.GridColumn17 = image;
+                        break;
+                    case 18:
+                        this.GridColumn18 = image;
+                        break;
+                    case 19:
+                        this.GridColumn19 = image;
+                        break;
+                    case 20:
+                        this.GridColumn20 = image;
+                        break;
+                }
+            }
+        }
+
+        public void setUnit(int column, AbstractUnit unit, int Army)
+        {
+            if (column >= 0 && column <= 20)
+            {
+
+                string image = GridRow.floor;
+                if (unit is Beast)
+                {
+                    if (Army == 0)
+                    {
+                        image = GridRow.beastBlue;
+                        units[column] = unit;
+                    } 
+                    else if (Army == 1)
+                    {
+                        image = GridRow.beastRed;
+                        units[column] = unit;
+                    }
+                }
+                else if (unit is Infantry)
+                {
+                    if (Army == 0)
+                    {
+                        image = GridRow.infantryBlue;
+                        units[column] = unit;
+                    }
+                    else if (Army == 1)
+                    {
+                        image = GridRow.infantryRed;
+                        units[column] = unit;
+                    }
+                }
+                else if (unit is Vehicle)
+                {
+                    if (Army == 0)
+                    {
+                        image = GridRow.tankBlue;
+                        units[column] = unit;
+                    }
+                    else if (Army == 1)
+                    {
+                        image = GridRow.tankRed;
+                        units[column] = unit;
+                    }
+                }
+                switch (column)
                 {
                     case 1:
                         this.GridColumn1 = image;
