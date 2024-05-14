@@ -1,26 +1,31 @@
-﻿using Foundation;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TableTopWarGameSimulator.Model.Faction.Armory;
-using TableTopWarGameSimulator.Model.Faction.Units;
 
-namespace TableTopWarGameSimulator.Model.Faction
+namespace TableTopWarGameSimulator
 {
     internal class Faction
     {
+        private string name;
         private List<AbstractUnit> units;
         private SemaphoreSlim semaphore = new SemaphoreSlim(4);
 
-        public Faction()
+        public Faction(string name)
         {
-            units = new List<AbstractUnit>();
+            this.name = name;
+            this.units = new List<AbstractUnit>();
         }
 
-        public void addUnit(AbstractUnit unit) 
+        public Faction(string name, List<AbstractUnit> units)
+        {
+            this.name = name;
+            this.units = units;
+        }
+
+        public void addUnit(AbstractUnit unit)
         {
             if (units.Count == 0)
             {
@@ -30,9 +35,9 @@ namespace TableTopWarGameSimulator.Model.Faction
             {
                 foreach (var existingUnit in units)
                 {
-                    if (existingUnit.getName() == unit.getName())
+                    if (existingUnit.name == unit.name)
                     {
-                        throw new ArgumentException($"Unit '{unit.getName()}' already exists in the faction.");
+                        throw new ArgumentException($"Unit '{unit.name}' already exists in the faction.");
                     }
                 }
 
@@ -40,24 +45,24 @@ namespace TableTopWarGameSimulator.Model.Faction
             }
         }
 
-        public void addNewUnit(string unitType, string name, int value, int movement, int toughness, int safe, int wounds, int leadership, int x, int y, int objectiveControle, List<Weapon> rangeWeapons, List<Weapon> meleeWeapons)
+        public void addNewUnit(string unitType, string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons)
         {
             AbstractUnit newUnit;
 
             switch (unitType)
             {
                 case "Beast":
-                    newUnit = new Beast(name, value, movement, toughness, safe, wounds, leadership, x, y, objectiveControle, rangeWeapons, meleeWeapons);
+                    newUnit = new Beast(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
                     addUnit(newUnit);
 
                     break;
                 case "Infantry":
-                    newUnit = new Infantry(name, value, movement, toughness, safe, wounds, leadership, x, y, objectiveControle, rangeWeapons, meleeWeapons);
+                    newUnit = new Infantry(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
                     addUnit(newUnit);
 
                     break;
                 case "Vehicle":
-                    newUnit = new Vehicle(name, value, movement, toughness, safe, wounds, leadership, x, y, objectiveControle, rangeWeapons, meleeWeapons);
+                    newUnit = new Vehicle(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
                     addUnit(newUnit);
 
                     break;
@@ -100,22 +105,37 @@ namespace TableTopWarGameSimulator.Model.Faction
 
             }
 
-            Thread.Sleep( 1000 );
+            Thread.Sleep(1000);
             while (semaphore.CurrentCount != 4) { }
 
             return newArmy;
         }
 
-        private AbstractUnit getUnitFromList(string unitName)
+        public AbstractUnit getUnitFromList(string unitName)
         {
             foreach (var unit in units)
             {
-                if (unit.getName() == unitName)
+                if (unit.name == unitName)
                 {
                     return unit;
                 }
             }
             return null;
+        }
+
+        public string toJSON()
+        {
+            List<string> list = new() { name, JSONObject.ListToJSON(units) };
+            string jsonString = JSONObject.ObjectToJSON(list);
+            return jsonString;
+        }
+
+        public static Faction fromJSON(string jsonString)
+        {
+            List<string> list = (List<string>)JSONObject.JSONToObject(jsonString);
+            string name = list[0];
+            List<AbstractUnit> units = JSONObject.JSONToList<AbstractUnit>(list[1]);
+            return new Faction(name, units);
         }
     }
 }

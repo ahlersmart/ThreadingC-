@@ -5,65 +5,103 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
-using TableTopWarGameSimulator.Model.Exception;
-using TableTopWarGameSimulator.Model.Faction.Armory;
 
-namespace TableTopWarGameSimulator.Model.Faction.Units
+namespace TableTopWarGameSimulator
 {
     internal abstract class AbstractUnit
     {
-        private string name;
-        private int value, movement, toughness, safe, wounds, leadership; // unit values
-        private static int maxWounds;
-        private int x, y; // position coordinates
-        private int objectiveControle;
-        private List<Weapon> rangeWeapons;
-        private List<Weapon> meleeWeapons;
+        private string _name;
+        private int _value, _movement, _toughness, _safe, _wounds, _leadership; // unit values
+        private readonly int _maxWounds;
+        private Armory _armory;
         private bool ifUsed;
 
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, int x, int y, int objectiveControle, List<Weapon> rangeWeapons, List<Weapon> meleeWeapons)
+        public string name
         {
-            this.name = name;
-            this.value = value;
-            this.movement = movement;
-            this.toughness = toughness;
-            this.safe = safe;
-            this.wounds = wounds;
-            maxWounds = wounds; // this. cant be used for static variables
-            this.leadership = leadership;
-            this.x = x;
-            this.y = y;
-            this.objectiveControle = objectiveControle;
-            this.rangeWeapons = new List<Weapon>();
-            this.meleeWeapons = new List<Weapon>();
+            get => this._name;
+            set => this._name = value;
+        }
+
+        public int value
+        {
+            get => this._value;
+            set => this._value = value;
+        }
+
+        public int movement
+        {
+            get => this._movement;
+            set => this._movement = value;
+        }
+
+        public int toughness
+        {
+            get => this._toughness;
+            set => this._toughness = value;
+        }
+
+        public int safe
+        {
+            get => this._safe;
+            set => this._safe = value;
+        }
+
+        public int wounds
+        {
+            get => this._wounds;
+            set => this._wounds = value;
+        }
+
+        public int leadership
+        {
+            get => this._leadership;
+            set => this._leadership = value;
+        }
+
+        public int maxWounds
+        {
+            get => this._maxWounds;
+        }
+
+        public Armory armory { get; set; }
+
+        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons)
+        {
+            this._name = name;
+            this._value = value;
+            this._movement = movement;
+            this._toughness = toughness;
+            this._safe = safe;
+            this._wounds = wounds;
+            this._maxWounds = wounds;
+            this._leadership = leadership;
+            this._armory = new Armory(rangeWeapons, meleeWeapons);
             ifUsed = false;
         }
 
-        public string getName() { return name; }
-        public void setName(string name) { this.name = name; }
-        public int getValue() { return value; }
-        public void setValue(int value) { this.value = value; }
-        public int getMovement() { return movement; }
-        public void setMovement(int movement) { this.movement = movement; }
-        public int getToughness() { return toughness; }
-        public void setToughness(int toughness) { this.toughness = toughness; }
-        public int getSafe() { return safe; }
-        public void setSafe(int safe) { this.safe = safe; }
-        public int getMaxWounds() { return maxWounds; }
-        public int getWounds() { return wounds; }
-        public void setWounds() { wounds = maxWounds; }
-        public int getLeadership() { return leadership; }
-        public void setLeadership(int leadership) { this.leadership = leadership; }
-        public int getX() { return x; }
-        public void setX(int x) { this.x = x; }
-        public int getY() { return y; }
-        public void setY(int y) { this.y = y; }
-        public int getObjectiveControle() { return objectiveControle; }
-        public void setObjectiveControle(int objectiveControle) { this.objectiveControle = objectiveControle; }
-        public List<Weapon> getRangeWeapons() { return rangeWeapons; }
-        public void setRangeWeapons(List<Weapon> rangeWeapons) { this.rangeWeapons = rangeWeapons; }
-        public List<Weapon> getMeleeWeapons() { return meleeWeapons; }
-        public void setMeleeWeapons(List<Weapon> meleeWeapons) { this.meleeWeapons = meleeWeapons; }
+        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, Armory armory)
+        {
+            this._name = name;
+            this._value = value;
+            this._movement = movement;
+            this._toughness = toughness;
+            this._safe = safe;
+            this._wounds = wounds;
+            this._maxWounds = wounds;
+            this._leadership = leadership;
+            this._armory = armory;
+            ifUsed = false;
+        }
+
+        public List<Range> getRangeWeapons() { return this._armory.rangeList; }
+        public void setRangeWeapons(List<Range> rangeWeapons) { this._armory.rangeList = rangeWeapons; }
+        public List<Melee> getMeleeWeapons() { return this._armory.meleeList; }
+        public void setMeleeWeapons(List<Melee> meleeWeapons) { this._armory.meleeList = meleeWeapons; }
+
+        public bool getIfUser()
+        {
+            return ifUsed;
+        }
 
         public void setIfUsed(bool value)
         {
@@ -93,11 +131,21 @@ namespace TableTopWarGameSimulator.Model.Faction.Units
 
         public void setAttacked(int attack)
         {
-            wounds -= attack;
-            if (wounds < 0)
+            _wounds -= attack;
+            if (_wounds < 0)
             {
-                wounds = 0;
+                _wounds = 0;
             }
+        }
+
+        public string toJSON()
+        {
+            return JSONObject.ObjectToJSON(this);
+        }
+
+        public static AbstractUnit fromJSON(string jsonString)
+        {
+            return (AbstractUnit) JSONObject.JSONToObject(jsonString);
         }
     }
 }

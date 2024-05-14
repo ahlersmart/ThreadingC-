@@ -1,29 +1,25 @@
-﻿using AudioUnit;
-using Photos;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TableTopWarGameSimulator.Model.Game;
-using TableTopWarGameSimulator.Model.Game.Phase;
 
-namespace TableTopWarGameSimulator.Model.Game
+namespace TableTopWarGameSimulator
 {
     internal class Game
     {
-        private Model.Game.Gamemode.Gamemode gamemode;
-        private List<Phase.Phase> phases;
-        private Phase.Phase currentPhase;
+        private Gamemode gamemode;
+        private List<Phase> phases;
+        private Phase currentPhase;
         private ArmyList redArmy;
         private ArmyList blueArmy;
         private Boolean playerRound;
 
-        public Game(Model.Game.Gamemode.Gamemode gamemode, ArmyList blueArmy, ArmyList redArmy)
+        public Game(Gamemode gamemode, ArmyList blueArmy, ArmyList redArmy)
         {
             this.gamemode = gamemode;
-            this.phases = new List<Phase.Phase>();
+            this.phases = new List<Phase>();
             setPhases();
             this.blueArmy = blueArmy;
             this.redArmy = redArmy;
@@ -59,7 +55,7 @@ namespace TableTopWarGameSimulator.Model.Game
             }
         }
 
-        public Phase.Phase getCurrentPhas() {  return currentPhase; }
+        public Phase getCurrentPhas() {  return currentPhase; }
         
         public String resign(ArmyList army)
         {

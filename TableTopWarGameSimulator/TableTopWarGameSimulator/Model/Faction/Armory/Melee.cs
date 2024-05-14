@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TableTopWarGameSimulator.Model.Faction.Armory
+namespace TableTopWarGameSimulator
 {
     internal class Melee : Weapon
     {
-        public Melee(int distance, string name) : base(distance, name)
+        public Melee(int distance, string name, int dmg) : base(distance, name, dmg)
         {
         }
     }

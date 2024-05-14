@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TableTopWarGameSimulator.Model.Exception
+namespace TableTopWarGameSimulator
 {
     internal class UnitStatusException : IOException
     {

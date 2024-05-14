@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TableTopWarGameSimulator.Model.Faction.Units;
-using TableTopWarGameSimulator.Model.Faction;
 
-namespace TableTopWarGameSimulator.Model.Game
+namespace TableTopWarGameSimulator
 {
     internal class ArmyList
     {
