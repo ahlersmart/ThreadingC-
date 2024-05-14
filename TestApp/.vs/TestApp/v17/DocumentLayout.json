@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\armory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\armylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\armylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\gamemode\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\game\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\game\\gamemode\\objective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\units\\infantry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\armory\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\armory\\melee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|c:\\users\\wackymachine\\documents\\github\\threadingc-\\testapp\\testapp\\model\\exception\\unitstatusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A528FF49-2C89-4AA1-B31B-67C70CF069B9}|TestApp\\TestApp.csproj|solutionrelative:testapp\\model\\exception\\unitstatusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Application.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Application.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Application.cs",
+              "RelativeToolTip": "TestApp\\Model\\Application.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:48:36.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Program.cs",
+              "RelativeDocumentMoniker": "TestApp\\Program.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Program.cs",
+              "RelativeToolTip": "TestApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:05:55.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Charging.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Charging.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Charging.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Charging.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Charging.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:25.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Objective.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Objective.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Gamemode\\Objective.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Objective.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Gamemode\\Objective.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:23.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Weapon.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Armory\\Weapon.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Weapon.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Armory\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:11.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Range.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Range.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Armory\\Range.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Range.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Armory\\Range.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:10.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Melee.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Melee.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Armory\\Melee.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Melee.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Armory\\Melee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:09.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Armory.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Armory.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Armory\\Armory.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Armory\\Armory.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Armory\\Armory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:42:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UnitStatusException.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Exception\\UnitStatusException.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Exception\\UnitStatusException.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Exception\\UnitStatusException.cs",
+              "RelativeToolTip": "TestApp\\Model\\Exception\\UnitStatusException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:29:24.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AbstractUnit.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Units\\AbstractUnit.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAA6wGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:50.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Beast.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Beast.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Units\\Beast.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Beast.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Units\\Beast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:50.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Infantry.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Infantry.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Units\\Infantry.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Infantry.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Units\\Infantry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:49.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Vehicle.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Units\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Units\\Vehicle.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Units\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:48.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Faction.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Faction.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Faction\\Faction.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Faction\\Faction.cs",
+              "RelativeToolTip": "TestApp\\Model\\Faction\\Faction.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv2kAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:48.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gamemode.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Gamemode.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Gamemode\\Gamemode.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Gamemode.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Gamemode\\Gamemode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:45.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rule.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Rule.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Gamemode\\Rule.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Gamemode\\Rule.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Gamemode\\Rule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:44.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fighting.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Fighting.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Fighting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:43.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Morale.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Morale.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Morale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:43.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Movement.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:42.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Phase.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Phase.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Phase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:41.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shooting.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Phase\\Shooting.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Phase\\Shooting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:41:41.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArmyList.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\ArmyList.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\ArmyList.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\ArmyList.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\ArmyList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:40:56.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "TestApp\\Model\\Game\\Game.cs",
+              "ToolTip": "C:\\Users\\WackyMachine\\Documents\\GitHub\\ThreadingC-\\TestApp\\TestApp\\Model\\Game\\Game.cs",
+              "RelativeToolTip": "TestApp\\Model\\Game\\Game.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwH4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:40:56.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
