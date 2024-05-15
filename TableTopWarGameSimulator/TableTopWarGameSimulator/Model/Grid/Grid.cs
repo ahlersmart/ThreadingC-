@@ -47,7 +47,7 @@ namespace TableTopWarGameSimulator
                 }
             }
 
-            row = this._grid.Count;
+            row = this._grid.Count-1;
             column = 1;
             foreach (AbstractUnit unit in army2.army)
             {
