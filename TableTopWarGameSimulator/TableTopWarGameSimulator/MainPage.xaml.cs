@@ -6,11 +6,13 @@ namespace TableTopWarGameSimulator
     {
         int count = 0;
         List<ArmyList> armies = new();
+        Game game;
 
         public MainPage()
         {
             InitializeComponent();
             createArmies();
+            this.game = new Game(armies[0], armies[1]);
         }
 
         private void OnCounterClicked(object sender, EventArgs e)

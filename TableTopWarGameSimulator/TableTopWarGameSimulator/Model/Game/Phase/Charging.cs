@@ -8,7 +8,7 @@ namespace TableTopWarGameSimulator
 {
     internal class Charging : Phase
     {
-        public void doPhase()
+        public bool doPhase(Grid grid, int currentRow, int currentColumn, int targetRow, int targetColumn, int playerRound)
         {
             throw new NotImplementedException();
         }

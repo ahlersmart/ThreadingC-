@@ -448,5 +448,16 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        public void resetUsed()
+        {
+            for(int i = 0; i < this.units.Length; i++)
+            {
+                if (this.units[i] != null && this.units[i].Item1 != null)
+                {
+                    this.units[i].Item1.resetUsed();
+                }
+            }
+        }
+
     }
 }

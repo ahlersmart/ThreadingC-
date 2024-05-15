@@ -8,9 +8,9 @@ namespace TableTopWarGameSimulator
 {
     internal class Fighting : Phase
     {
-        public void doPhase()
+        public bool doPhase(Grid grid, int currentRow, int currentColumn, int targetRow, int targetColumn, int playerRound)
         {
-            throw new NotImplementedException();
+            return grid.meleeAttack(currentRow, currentColumn, targetRow, targetColumn, playerRound);
         }
     }
 }

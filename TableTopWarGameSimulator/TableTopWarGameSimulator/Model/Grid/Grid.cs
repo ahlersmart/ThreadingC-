@@ -81,7 +81,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        public bool move(int currentRow, int currentColumn, int newRow, int newColumn) 
+        public bool move(int currentRow, int currentColumn, int newRow, int newColumn, int playerRound) 
         {
             if (currentRow >= 0 && currentRow < this._grid.Count && currentColumn >= 0 && currentColumn < 20 && newRow >= 0 && newRow < this._grid.Count && newColumn >= 0 && newColumn < 20)
             {
@@ -90,7 +90,7 @@ namespace TableTopWarGameSimulator
                 if (unitTuple != null)
                 {
                     AbstractUnit unit = unitTuple.Item1;
-                    if (unit != null && !unit.ifUsed)
+                    if (unit != null && !unit.ifUsed && unitTuple.Item2 == playerRound)
                     {
                         int rowDifference = currentRow - newRow;
                         int columnDifference = currentColumn - newColumn;
@@ -139,12 +139,12 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        public bool rangeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn)
+        public bool rangeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
             if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 &&  targetColumn < 20)
             {
                 Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
-                if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed)
+                if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed && attacker.Item2 == playerRound)
                 {
                     Tuple<AbstractUnit, int> target = this._grid[targetRow].getUnit(targetColumn);
                     if(target != null && target.Item1 != null && attacker.Item2 != target.Item2)
@@ -187,27 +187,27 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        public bool meleeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn)
+        public bool meleeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
             if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 && targetColumn < 20)
             {
                 int rowDifference = targetRow - attackerRow;
                 int columnDifference = targetColumn - attackerColumn;
-                if(rowDifference < 0)
+                if (rowDifference < 0)
                 {
                     rowDifference = rowDifference * -1;
                 }
-                if(columnDifference < 0)
+                if (columnDifference < 0)
                 {
                     columnDifference = columnDifference * -1;
                 }
-                if(rowDifference < 1 &&  columnDifference < 1)
+                if (rowDifference < 1 && columnDifference < 1)
                 {
                     Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
-                    if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed)
+                    if (attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed && attacker.Item2 == playerRound)
                     {
                         Tuple<AbstractUnit, int> target = this._grid[targetRow].getUnit(targetColumn);
-                        if(target != null && target.Item1 != null && attacker.Item2 != target.Item2)
+                        if (target != null && target.Item1 != null && attacker.Item2 != target.Item2)
                         {
                             this._grid[targetRow].attack(targetColumn, target.Item1.getMeleeDamage());
                             attacker.Item1.setUsed();
@@ -233,5 +233,14 @@ namespace TableTopWarGameSimulator
             {
                 return false;
             }
+        }
+
+        public void resetUsed()
+        {
+            foreach(GridRow row in this._grid)
+            {
+                row.resetUsed();
+            }
+        }
     }
 }

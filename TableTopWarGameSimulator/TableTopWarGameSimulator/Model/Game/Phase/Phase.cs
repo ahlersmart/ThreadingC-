@@ -8,6 +8,6 @@ namespace TableTopWarGameSimulator
 {
     interface Phase
     {
-        void doPhase();
+        bool doPhase(Grid grid, int currentRow, int currentColumn, int targetRow, int targetColumn, int playerRound);
     }
 }

@@ -65,6 +65,7 @@ namespace TableTopWarGameSimulator
             if (this._currentPhase == 2) 
             { 
                 this._currentPhase = 0;
+                this.nextRound();
             } else
             {
                 this._currentPhase++;
@@ -106,13 +107,13 @@ namespace TableTopWarGameSimulator
             {
                 this._playerRound = 0;
             }
+            this._grid.resetUsed();
         }
 
-        public Boolean move(int currentRow, int currentColumn, int newRow, int newColumn)
+        public bool phaseAction(int currentRow, int currentColumn, int newRow, int newColumn)
         {
-            return this._grid.move(currentRow, currentColumn, newRow, newColumn);
+            return this.currentPhase.doPhase(this._grid, currentRow, currentColumn, newRow, newColumn, this._playerRound);
         }
-
 
     }
 }
