@@ -11,10 +11,10 @@ namespace TableTopWarGameSimulator
     internal abstract class AbstractUnit
     {
         private string _name;
-        private int _value, _movement, _toughness, _safe, _wounds, _leadership; // unit values
-        private readonly int _maxWounds;
+        private int _value, _movement, _toughness, _safe, _hp, _leadership; // unit values
+        private readonly int _maxHP;
         private Armory _armory;
-        private bool ifUsed;
+        private bool _ifUsed;
 
         public string name
         {
@@ -46,10 +46,10 @@ namespace TableTopWarGameSimulator
             set => this._safe = value;
         }
 
-        public int wounds
+        public int hp
         {
-            get => this._wounds;
-            set => this._wounds = value;
+            get => this._hp;
+            set => this._hp = value;
         }
 
         public int leadership
@@ -58,28 +58,33 @@ namespace TableTopWarGameSimulator
             set => this._leadership = value;
         }
 
-        public int maxWounds
+        public int maxHP
         {
-            get => this._maxWounds;
+            get => this._maxHP;
+        }
+
+        public bool ifUsed
+        {
+            get => this._ifUsed;
         }
 
         public Armory armory { get; set; }
 
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, Armory armory)
+        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory)
         {
             this._name = name;
             this._value = value;
             this._movement = movement;
             this._toughness = toughness;
             this._safe = safe;
-            this._wounds = wounds;
-            this._maxWounds = wounds;
+            this._hp = hp;
+            this._maxHP = hp;
             this._leadership = leadership;
             this._armory = armory;
-            this.ifUsed = false;
+            this._ifUsed = false;
         }
 
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : this(name, value,  movement, toughness, safe, wounds, leadership, new Armory(rangeWeapons, meleeWeapons))
+        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : this(name, value,  movement, toughness, safe, hp, leadership, new Armory(rangeWeapons, meleeWeapons))
         {
         }
 
@@ -90,42 +95,37 @@ namespace TableTopWarGameSimulator
 
         public bool getIfUser()
         {
-            return ifUsed;
+            return _ifUsed;
         }
 
-        public void setIfUsed(bool value)
+        public void setUsed()
         {
-            if (value == true)
-            {
-                if (ifUsed == false)
-                {
-                    ifUsed = true;
-                }
-                else
-                {
-                    throw new UnitStatusException();
-                }
-            }
-            else if (value == false)
-            {
-                if (ifUsed == true)
-                {
-                    ifUsed = false;
-                }
-                else
-                {
-                    throw new UnitStatusException();
-                }
-            }
+            this._ifUsed = true;
         }
 
-        public void setAttacked(int attack)
+        public void resetUsed()
         {
-            _wounds -= attack;
-            if (_wounds < 0)
+            this._ifUsed = false;
+        }
+
+        public int setAttacked(int attack)
+        {
+            _hp -= attack;
+            if (_hp < 0)
             {
-                _wounds = 0;
+                _hp = 0;
             }
+            return _hp;
+        }
+
+        public Tuple<int, int> getRangeAttack()
+        {
+            return this._armory.getRangeAttack();
+        }
+
+        public int getMeleeDamage()
+        {
+            return this._armory.getMeleeDamage();
         }
 
         public string toJSON()

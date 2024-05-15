@@ -50,6 +50,30 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        public Tuple<int, int> getRangeAttack()
+        {
+            if (this._rangeList.Count > 0)
+            {
+                return new Tuple<int, int>(this._rangeList[0].dmg, this._rangeList[0].distance);
+            }
+            else
+            {
+                return new Tuple<int, int>(0, 0);
+            }
+        }
+
+        public int getMeleeDamage()
+        {
+            if(this._meleeList.Count > 0)
+            {
+                return this._meleeList[0].dmg;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
         public string toJSON()
         {
             return JSONObject.ObjectToJSON(this);

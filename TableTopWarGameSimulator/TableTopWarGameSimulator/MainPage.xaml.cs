@@ -27,12 +27,12 @@ namespace TableTopWarGameSimulator
 
         private void createArmies()
         {
-            Melee sword = new Melee(1, "Sword", 2);
-            Melee tentacle = new Melee(1, "Tentacle", 1);
-            Melee tankMelee = new Melee(1, "TankMelee", 1);
-            Range gun = new Range(5, "Gun", 1);
-            Range ray = new Range(5, "Ray", 2);
-            Range cannon = new Range(5, "Cannon", 5);
+            Melee sword = new Melee("Sword", 2);
+            Melee tentacle = new Melee("Tentacle", 2);
+            Melee tankMelee = new Melee("TankMelee", 1);
+            Range gun = new Range(4, "Gun", 2);
+            Range ray = new Range(4, "Ray", 2);
+            Range cannon = new Range(4, "Cannon", 5);
 
             Armory soldierArmory = new();
             Armory beastArmory = new();
@@ -50,9 +50,9 @@ namespace TableTopWarGameSimulator
             List<AbstractUnit> army = new();
             for(int i = 0; i < 10; i++)
             {
-                Infantry s1 = new Infantry("Soldier" + i, 1, 3, 10, 0, 10, 0, soldierArmory);
-                Beast b1 = new Beast("Beast" + i, 2, 3, 15, 0, 15, 0, beastArmory);
-                Vehicle t1 = new Vehicle("Tank" + i, 4, 3, 20, 0, 20, 0, tankArmory);
+                Infantry s1 = new Infantry("Soldier" + i, 1, 3, 2, 0, 10, 0, soldierArmory);
+                Beast b1 = new Beast("Beast" + i, 2, 4, 3, 0, 12, 0, beastArmory);
+                Vehicle t1 = new Vehicle("Tank" + i, 4, 3, 4, 0, 15, 0, tankArmory);
                 soldiers.Add(s1);
                 beasts.Add(b1);
                 tanks.Add(t1);

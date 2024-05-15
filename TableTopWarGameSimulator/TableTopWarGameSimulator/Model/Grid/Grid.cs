@@ -81,7 +81,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        public Boolean move(int currentRow, int currentColumn, int newRow, int newColumn) 
+        public bool move(int currentRow, int currentColumn, int newRow, int newColumn) 
         {
             if (currentRow >= 0 && currentRow < this._grid.Count && currentColumn >= 0 && currentColumn < 20 && newRow >= 0 && newRow < this._grid.Count && newColumn >= 0 && newColumn < 20)
             {
@@ -90,7 +90,7 @@ namespace TableTopWarGameSimulator
                 if (unitTuple != null)
                 {
                     AbstractUnit unit = unitTuple.Item1;
-                    if (unit != null)
+                    if (unit != null && !unit.ifUsed)
                     {
                         int rowDifference = currentRow - newRow;
                         int columnDifference = currentColumn - newColumn;
@@ -102,8 +102,7 @@ namespace TableTopWarGameSimulator
                         {
                             columnDifference = columnDifference * -1;
                         }
-                        int difference = rowDifference + columnDifference;
-                        if (difference <= unit.movement)
+                        if (rowDifference <= unit.movement && columnDifference <= unit.movement)
                         {
                             GridRow newGridRow = this._grid[newRow];
                             Tuple<AbstractUnit, int> unitCheck = newGridRow.getUnit(newColumn);
@@ -111,6 +110,7 @@ namespace TableTopWarGameSimulator
                             {
                                 unitTuple = currentGridRow.removeUnit(currentRow);
                                 newGridRow.setUnit(newColumn, unitTuple.Item1, unitTuple.Item2);
+                                unit.setUsed();
                                 return true;
                             }
                             else
@@ -139,5 +139,99 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        public bool rangeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn)
+        {
+            if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 &&  targetColumn < 20)
+            {
+                Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
+                if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed)
+                {
+                    Tuple<AbstractUnit, int> target = this._grid[targetRow].getUnit(targetColumn);
+                    if(target != null && target.Item1 != null && attacker.Item2 != target.Item2)
+                    {
+                        int rowDifference = targetRow - attackerRow;
+                        int columnDifference = targetColumn - attackerColumn;
+                        if (rowDifference < 0)
+                        {
+                            rowDifference = rowDifference * -1;
+                        }
+                        if (columnDifference < 0)
+                        {
+                            columnDifference = columnDifference * -1;
+                        }
+                        Tuple<int, int> weaponSpecs = attacker.Item1.getRangeAttack();
+                        if (rowDifference <= weaponSpecs.Item2 && columnDifference <= weaponSpecs.Item2)
+                        {
+                            this._grid[targetRow].attack(targetColumn, weaponSpecs.Item1);
+                            attacker.Item1.setUsed();
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool meleeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn)
+        {
+            if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 && targetColumn < 20)
+            {
+                int rowDifference = targetRow - attackerRow;
+                int columnDifference = targetColumn - attackerColumn;
+                if(rowDifference < 0)
+                {
+                    rowDifference = rowDifference * -1;
+                }
+                if(columnDifference < 0)
+                {
+                    columnDifference = columnDifference * -1;
+                }
+                if(rowDifference < 1 &&  columnDifference < 1)
+                {
+                    Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
+                    if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed)
+                    {
+                        Tuple<AbstractUnit, int> target = this._grid[targetRow].getUnit(targetColumn);
+                        if(target != null && target.Item1 != null && attacker.Item2 != target.Item2)
+                        {
+                            this._grid[targetRow].attack(targetColumn, target.Item1.getMeleeDamage());
+                            attacker.Item1.setUsed();
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+            else
+            {
+                return false;
+            }
     }
 }

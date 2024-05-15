@@ -8,7 +8,7 @@ namespace TableTopWarGameSimulator
 {
     internal class Melee : Weapon
     {
-        public Melee(int distance, string name, int dmg) : base(distance, name, dmg)
+        public Melee(string name, int dmg) : base(1, name, dmg)
         {
         }
     }

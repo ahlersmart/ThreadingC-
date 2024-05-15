@@ -433,5 +433,20 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        public void attack(int column, int dmg)
+        {
+            if(column >= 0 && column < 20 )
+            {
+                if (this.units[column] != null && this.units[column].Item1 != null)
+                {
+                    int hp = this.units[column].Item1.setAttacked(dmg);
+                    if (hp == 0)
+                    {
+                        this.removeUnit(column);
+                    }
+                }
+            }
+        }
+
     }
 }
