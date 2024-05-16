@@ -1,42 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\",
+  "WorkspaceRootPath": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\tabletopwargamesimulator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\tabletopwargamesimulator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\armory\\armory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\abstractunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\faction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\json\\jsonobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\json\\jsonobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadinggame\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\faction\\units\\beast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\grid\\gridrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\grid\\gridrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TableTopWarGameSimulator",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
-              "RelativeToolTip": "TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-14T11:02:05.233Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "GridRow.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\GridRow.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Grid\\GridRow.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\GridRow.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Grid\\GridRow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T03:13:39.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Grid.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCIAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:47:47.21Z",
-              "EditorCaption": ""
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
+              "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T02:58:43.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Armory.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Armory\\Armory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T07:00:36.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:30:19.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Faction.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Faction.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAADwv4sAAAAFAAAA",
+              "DocumentIndex": 2,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T14:55:03.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JSONObject.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\JSON\\JSONObject.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\JSON\\JSONObject.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\JSON\\JSONObject.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\JSON\\JSONObject.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAuwEAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T14:44:15.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Vehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:47:31.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Beast.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\Beast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:47:27.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AbstractUnit.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Faction\\Units\\AbstractUnit.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAUwGYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:45:04.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T10:47:47.21Z"
             }
           ]
         }

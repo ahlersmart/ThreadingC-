@@ -43364,11 +43364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
+      "projectUniqueName": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
       "projectName": "TableTopWarGameSimulator",
-      "projectPath": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
+      "projectPath": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj",
       "packagesPath": "C:\\Users\\VisualTunic488\\.nuget\\packages\\",
-      "outputPath": "E:\\Github Desktop\\Repositories\\ThreadingGame\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\obj\\",
+      "outputPath": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -151,14 +151,14 @@ namespace TableTopWarGameSimulator
 
         private Tuple<AbstractUnit, int>[] units;
 
-        static readonly string floor = @".\images\Floor.png";
-        static readonly string wall = @".\images\Wall.png";
-        static readonly string tankBlue = @".\images\BlueTank.png";
-        static readonly string infantryBlue = @".\images\BlueSoldier.png";
-        static readonly string beastBlue = @".\images\BlueBeast.png";
-        static readonly string tankRed = @".\images\RedTank.png";
-        static readonly string infantryRed = @".\images\RedSoldier.png";
-        static readonly string beastRed = @".\images\RedBeast.png";
+        static readonly string floor = "floor.png";
+        static readonly string wall = "wall.png";
+        static readonly string tankBlue = "bluetank.png";
+        static readonly string infantryBlue = "bluesoldier.png";
+        static readonly string beastBlue = "bluebeast.png";
+        static readonly string tankRed = "redtank.png";
+        static readonly string infantryRed = "redsoldier.png";
+        static readonly string beastRed = "redbeast.png";
 
 
         public GridRow()

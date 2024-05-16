@@ -13,6 +13,7 @@
           "Microsoft.Maui.Controls": "8.0.6",
           "Microsoft.Maui.Controls.Compatibility": "8.0.6",
           "System.Collections.NonGeneric": "4.3.0",
+          "akgul.Maui.DataGrid": "4.0.2",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -28,6 +29,18 @@
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.4.44211"
+          }
+        }
+      },
+      "akgul.Maui.DataGrid/4.0.2": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.6",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/Maui.DataGrid.dll": {
+            "assemblyVersion": "4.0.0.2",
+            "fileVersion": "4.0.0.2"
           }
         }
       },
@@ -579,6 +592,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "akgul.Maui.DataGrid/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P4PvyGQJCAmbiXkQ3xdKPUYhe/0Rh2tcOAWsMfgbKNAbLEnpLys/JiDyEsWElV4RxMFiLDPNX0RM59d1FJZ5Hg==",
+      "path": "akgul.maui.datagrid/4.0.2",
+      "hashPath": "akgul.maui.datagrid.4.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",

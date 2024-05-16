@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.tabletopwargamesimulator</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>E304080354B64670AB72DFC0054C80297FC78F5957A10C3A54562C631459EED5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.tabletopwargamesimulator_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.tabletopwargamesimulator_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,312 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-14T10:59:50.061</Modified>
+      <Modified>2024-05-16T07:03:30.719</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-14T10:59:49.755</Modified>
+      <Modified>2024-05-16T07:03:30.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.runtimeconfig.json">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.runtimeconfig.json">
       <PackagePath>TableTopWarGameSimulator.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-14T10:59:49.385</Modified>
+      <Modified>2024-05-16T03:00:30.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.dll">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.dll">
       <PackagePath>TableTopWarGameSimulator.dll</PackagePath>
-      <Modified>2024-05-14T10:59:47.950</Modified>
+      <Modified>2024-05-16T07:03:28.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TableTopWarGameSimulator.exe</PackagePath>
-      <Modified>2024-05-14T10:59:48.120</Modified>
+      <Modified>2024-05-16T07:03:28.906</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-05-14T10:46:22.777</Modified>
+      <Modified>2024-05-16T02:43:13.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.753</Modified>
+      <Modified>2024-05-16T02:43:16.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.753</Modified>
+      <Modified>2024-05-16T02:43:16.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.754</Modified>
+      <Modified>2024-05-16T02:43:16.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.754</Modified>
+      <Modified>2024-05-16T02:43:16.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.755</Modified>
+      <Modified>2024-05-16T02:43:16.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-05-14T10:46:27.725</Modified>
+      <Modified>2024-05-16T02:43:16.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-05-14T10:46:27.726</Modified>
+      <Modified>2024-05-16T02:43:16.389</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-05-14T10:46:27.728</Modified>
+      <Modified>2024-05-16T02:43:16.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.728</Modified>
+      <Modified>2024-05-16T02:43:16.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.729</Modified>
+      <Modified>2024-05-16T02:43:16.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.729</Modified>
+      <Modified>2024-05-16T02:43:16.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.729</Modified>
+      <Modified>2024-05-16T02:43:16.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.730</Modified>
+      <Modified>2024-05-16T02:43:16.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.731</Modified>
+      <Modified>2024-05-16T02:43:16.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.731</Modified>
+      <Modified>2024-05-16T02:43:16.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.732</Modified>
+      <Modified>2024-05-16T02:43:16.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.732</Modified>
+      <Modified>2024-05-16T02:43:16.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.732</Modified>
+      <Modified>2024-05-16T02:43:16.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.733</Modified>
+      <Modified>2024-05-16T02:43:16.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.734</Modified>
+      <Modified>2024-05-16T02:43:16.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.734</Modified>
+      <Modified>2024-05-16T02:43:16.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.735</Modified>
+      <Modified>2024-05-16T02:43:16.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.735</Modified>
+      <Modified>2024-05-16T02:43:16.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.736</Modified>
+      <Modified>2024-05-16T02:43:16.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.736</Modified>
+      <Modified>2024-05-16T02:43:16.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.736</Modified>
+      <Modified>2024-05-16T02:43:16.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.737</Modified>
+      <Modified>2024-05-16T02:43:16.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.738</Modified>
+      <Modified>2024-05-16T02:43:16.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.738</Modified>
+      <Modified>2024-05-16T02:43:16.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.738</Modified>
+      <Modified>2024-05-16T02:43:16.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.739</Modified>
+      <Modified>2024-05-16T02:43:16.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.739</Modified>
+      <Modified>2024-05-16T02:43:16.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.740</Modified>
+      <Modified>2024-05-16T02:43:16.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.740</Modified>
+      <Modified>2024-05-16T02:43:16.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.741</Modified>
+      <Modified>2024-05-16T02:43:16.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.741</Modified>
+      <Modified>2024-05-16T02:43:16.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.742</Modified>
+      <Modified>2024-05-16T02:43:16.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.742</Modified>
+      <Modified>2024-05-16T02:43:16.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.742</Modified>
+      <Modified>2024-05-16T02:43:16.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.743</Modified>
+      <Modified>2024-05-16T02:43:16.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.743</Modified>
+      <Modified>2024-05-16T02:43:16.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.744</Modified>
+      <Modified>2024-05-16T02:43:16.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.744</Modified>
+      <Modified>2024-05-16T02:43:16.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.745</Modified>
+      <Modified>2024-05-16T02:43:16.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.745</Modified>
+      <Modified>2024-05-16T02:43:16.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.745</Modified>
+      <Modified>2024-05-16T02:43:16.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.746</Modified>
+      <Modified>2024-05-16T02:43:16.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.746</Modified>
+      <Modified>2024-05-16T02:43:16.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.747</Modified>
+      <Modified>2024-05-16T02:43:16.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.747</Modified>
+      <Modified>2024-05-16T02:43:16.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.747</Modified>
+      <Modified>2024-05-16T02:43:16.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.748</Modified>
+      <Modified>2024-05-16T02:43:16.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.748</Modified>
+      <Modified>2024-05-16T02:43:16.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beast.scale-100.png">
+      <PackagePath>beast.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:59:46.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluebeast.scale-100.png">
+      <PackagePath>bluebeast.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:59:54.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluesoldier.scale-100.png">
+      <PackagePath>bluesoldier.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:56:20.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluetank.scale-100.png">
+      <PackagePath>bluetank.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:57:32.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.749</Modified>
+      <Modified>2024-05-16T03:25:57.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.749</Modified>
+      <Modified>2024-05-16T03:25:57.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.750</Modified>
+      <Modified>2024-05-16T03:25:57.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.750</Modified>
+      <Modified>2024-05-16T03:25:57.238</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-05-14T10:46:27.752</Modified>
+      <Modified>2024-05-16T03:25:57.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingGame\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.deps.json">
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\floor.scale-100.png">
+      <PackagePath>floor.scale-100.png</PackagePath>
+      <Modified>2024-05-14T09:03:37.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redbeast.scale-100.png">
+      <PackagePath>redbeast.scale-100.png</PackagePath>
+      <Modified>2024-05-14T09:00:02.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redsoldier.scale-100.png">
+      <PackagePath>redsoldier.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:56:29.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\redtank.scale-100.png">
+      <PackagePath>redtank.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:57:03.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\soldier.scale-100.png">
+      <PackagePath>soldier.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:56:05.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tank.scale-100.png">
+      <PackagePath>tank.scale-100.png</PackagePath>
+      <Modified>2024-05-14T08:49:33.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wall.scale-100.png">
+      <PackagePath>wall.scale-100.png</PackagePath>
+      <Modified>2024-05-14T09:02:07.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.deps.json">
       <PackagePath>TableTopWarGameSimulator.deps.json</PackagePath>
-      <Modified>2024-05-14T10:59:49.350</Modified>
+      <Modified>2024-05-16T03:00:30.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VisualTunic488\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +340,10 @@
     <AppxPackagedFile Include="C:\Users\VisualTunic488\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VisualTunic488\.nuget\packages\akgul.maui.datagrid\4.0.2\lib\net8.0\Maui.DataGrid.dll">
+      <PackagePath>Maui.DataGrid.dll</PackagePath>
+      <Modified>2024-03-25T20:25:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VisualTunic488\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

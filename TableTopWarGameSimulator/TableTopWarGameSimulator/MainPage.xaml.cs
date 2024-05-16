@@ -1,30 +1,79 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Net.Http.Json;
 
 namespace TableTopWarGameSimulator
 {
     public partial class MainPage : ContentPage
     {
+        private readonly HttpClient httpClient = new();
+        public bool IsRefreshing { get; set; }
+        public ObservableCollection<Monkey> Monkeys { get; set; } = new();
+        public ObservableCollection<GridRow> GridGame { get; set; } = new();
+        public Command RefreshCommand { get; set; }
+        public Monkey SelectedMonkey { get; set; }
+        private GridRow SelectedRow { get; set; }
         int count = 0;
         List<ArmyList> armies = new();
         Game game;
 
         public MainPage()
         {
-            InitializeComponent();
             createArmies();
             this.game = new Game(armies[0], armies[1]);
+            RefreshCommand = new Command(async () =>
+            {
+                await Task.Delay(2000);
+                LoadMap(armies[0], armies[1]);
+
+                IsRefreshing = false;
+                OnPropertyChanged(nameof(IsRefreshing));
+
+                foreach (GridRow row in GridGame)
+                {
+                    Trace.WriteLine("Row 1:" + row.GridColumn0);
+                }
+            });
+
+            LoadMap(armies[0], armies[1]);
+            foreach (GridRow row in GridGame)
+            {
+                Trace.WriteLine("Row 1:" + row.GridColumn0);
+            }
+
+            BindingContext = this;
+            InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        protected async override void OnNavigatedTo(NavigatedToEventArgs args)
         {
-            count++;
+            base.OnNavigatedTo(args);
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            await LoadMonkeys();
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Monkeys.Clear();
+        }
+
+        private async Task LoadMonkeys()
+        {
+            var monkeys = await httpClient.GetFromJsonAsync<Monkey[]>("https://montemagno.com/monkeys.json");
+
+            Monkeys.Clear();
+
+            foreach (Monkey monkey in monkeys)
+            {
+                Monkeys.Add(monkey);
+            }
+        }
+
+        private void LoadMap(ArmyList Army1, ArmyList Army2) 
+        {
+            Grid gameGrid = new Grid(Army1, Army2);
+            GridGame = gameGrid.grid;
+            Debug.WriteLine("Tast LoadMap Completed");
         }
 
         private void createArmies()

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,9 +9,9 @@ namespace TableTopWarGameSimulator
 {
     internal class Grid
     {
-        private List<GridRow> _grid;
+        private ObservableCollection<GridRow> _grid;
 
-        public List<GridRow> grid
+        public ObservableCollection<GridRow> grid
         {
             get => this._grid;
             set => _grid = value;
