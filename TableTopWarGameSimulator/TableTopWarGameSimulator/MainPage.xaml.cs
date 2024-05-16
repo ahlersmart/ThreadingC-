@@ -14,8 +14,8 @@ namespace TableTopWarGameSimulator
         public Monkey SelectedMonkey { get; set; }
         public GridRow SelectedRow { get; set; }
         int count = 0;
-        List<ArmyList> armies = new();
-        Game game;
+        private List<ArmyList> armies { get; set; } = new();
+        private Game game { get; set; }
         private ObservableCollection<GridRow> gridGame = new();
 
         public MainPage()
