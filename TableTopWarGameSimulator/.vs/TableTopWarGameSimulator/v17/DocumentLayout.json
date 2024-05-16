@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VisualTunic488\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VisualTunic488\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,15 +49,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\VisualTunic488\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ToolTip": "C:\\Users\\VisualTunic488\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.6\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AQIAAFYCAAAAAAAAAAAswGcCAAAIAAAA",
+              "ViewState": "AQIAAAsCAAAAAAAAAAAswGcCAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-05-16T09:35:31.942Z",
               "EditorCaption": ""
@@ -142,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
               "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAsAAAAiAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-16T02:58:43.92Z",
               "EditorCaption": ""
@@ -161,7 +161,7 @@
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml.cs",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwD8AAAAtAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAxwBUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:30:19.313Z",
               "EditorCaption": ""

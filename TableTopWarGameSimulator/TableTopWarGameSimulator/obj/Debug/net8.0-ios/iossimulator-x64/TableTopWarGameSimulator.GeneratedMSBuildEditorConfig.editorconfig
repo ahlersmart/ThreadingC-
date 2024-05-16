@@ -28,6 +28,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.A
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/EditUnit.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.EditUnit.xaml
+build_metadata.AdditionalFiles.TargetPath = EditUnit.xaml
+build_metadata.AdditionalFiles.RelativePath = EditUnit.xaml
+
+[E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/FactionOverview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.FactionOverview.xaml
+build_metadata.AdditionalFiles.TargetPath = FactionOverview.xaml
+build_metadata.AdditionalFiles.RelativePath = FactionOverview.xaml
+
+[E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/GamePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.GamePage.xaml
+build_metadata.AdditionalFiles.TargetPath = GamePage.xaml
+build_metadata.AdditionalFiles.RelativePath = GamePage.xaml
+
 [E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.MainPage.xaml
@@ -45,3 +63,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/ScoreScreen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.ScoreScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = ScoreScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = ScoreScreen.xaml
+
+[E:/Github Desktop/Repositories/ThreadingBrokeAgainLmao/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/UnitOverview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.UnitOverview.xaml
+build_metadata.AdditionalFiles.TargetPath = UnitOverview.xaml
+build_metadata.AdditionalFiles.RelativePath = UnitOverview.xaml
