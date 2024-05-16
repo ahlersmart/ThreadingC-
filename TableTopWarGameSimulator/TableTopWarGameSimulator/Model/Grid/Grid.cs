@@ -37,7 +37,7 @@ namespace TableTopWarGameSimulator
             {
                 this._grid[row].setUnit(column, unit, 0);
 
-                if (column == 20)
+                if (column == 19)
                 {
                     column = 0;
                     row++;
@@ -54,7 +54,7 @@ namespace TableTopWarGameSimulator
             {
                 this._grid[row].setUnit(column, unit, 1);
 
-                if (column == 20)
+                if (column == 19)
                 {
                     column = 0;
                     row--;
@@ -68,7 +68,7 @@ namespace TableTopWarGameSimulator
 
         public void setImage(int row, int column, string item)
         {
-            if (row >= 0 && row <= 20)
+            if (row >= 0 && row < 20)
             {
                 this.grid[row].setImage(column, item);
             }
@@ -76,7 +76,7 @@ namespace TableTopWarGameSimulator
 
         public void setUnit(int row, int column, AbstractUnit unit, int Army)
         {
-            if (row >= 0 && row <= 20)
+            if (row >= 0 && row < 20)
             {
                 this.grid[row].setUnit(column, unit, Army);
             }
@@ -142,7 +142,7 @@ namespace TableTopWarGameSimulator
 
         public bool rangeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
-            if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 &&  targetColumn < 20)
+            if (attackerRow >= 0 && attackerRow < this._grid.Count && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < this._grid.Count && targetColumn >= 0 &&  targetColumn < 20)
             {
                 Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
                 if(attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed && attacker.Item2 == playerRound)
@@ -190,7 +190,7 @@ namespace TableTopWarGameSimulator
 
         public bool meleeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
-            if (attackerRow >= 0 && attackerRow < 20 && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < 20 && targetColumn >= 0 && targetColumn < 20)
+            if (attackerRow >= 0 && attackerRow < this._grid.Count && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < this._grid.Count && targetColumn >= 0 && targetColumn < 20)
             {
                 int rowDifference = targetRow - attackerRow;
                 int columnDifference = targetColumn - attackerColumn;
