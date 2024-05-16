@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\grid\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\grid\\gridrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,36 +38,38 @@
               "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Grid\\GridRow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T03:13:39.782Z"
+              "WhenOpened": "2024-05-16T03:13:39.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
               "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-16T02:58:43.92Z"
+              "WhenOpened": "2024-05-16T02:58:43.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml.cs",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBAAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:30:19.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Grid.cs",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
@@ -75,7 +77,8 @@
               "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Grid\\Grid.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:47:47.21Z"
+              "WhenOpened": "2024-05-14T10:47:47.21Z",
+              "EditorCaption": ""
             }
           ]
         }

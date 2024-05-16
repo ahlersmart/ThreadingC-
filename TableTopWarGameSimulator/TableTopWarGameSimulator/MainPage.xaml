@@ -7,7 +7,7 @@
     <Grid RowDefinitions="70,*">
         <Button Text="Remove Data" Clicked="Button_Clicked" Margin="10"/>
 
-        <dg:DataGrid Grid.Row="1" ItemsSource="{Binding grid}" SelectionMode="Single"
+        <dg:DataGrid Grid.Row="1" ItemsSource="{Binding GridGame}" SelectionMode="Single"
                      SelectedItem="{Binding SelectedRow}"
                      RowHeight="100" PullToRefreshCommand="{Binding RefreshCommand}"
                      IsRefreshing="{Binding IsRefreshing}">

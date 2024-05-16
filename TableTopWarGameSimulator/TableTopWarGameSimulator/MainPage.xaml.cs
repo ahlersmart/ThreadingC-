@@ -24,13 +24,12 @@ namespace TableTopWarGameSimulator
             RefreshCommand = new Command(async () =>
             {
                 await Task.Delay(2000);
-                LoadMap(armies[0], armies[1]);
+                await LoadMap(armies[0], armies[1]);
 
                 IsRefreshing = false;
                 OnPropertyChanged(nameof(IsRefreshing));
             });
 
-            LoadMap(armies[0], armies[1]);
             foreach (GridRow row in GridGame)
             {
                 Trace.WriteLine("Row 1:" + row.GridColumn0);
@@ -64,8 +63,9 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        private void LoadMap(ArmyList Army1, ArmyList Army2) 
+        private async Task LoadMap(ArmyList Army1, ArmyList Army2) 
         {
+            await Task.Delay(1000);
             Grid gameGrid = new Grid(Army1, Army2);
             GridGame = gameGrid.grid;
             Debug.WriteLine("Test LoadMap Completed");
