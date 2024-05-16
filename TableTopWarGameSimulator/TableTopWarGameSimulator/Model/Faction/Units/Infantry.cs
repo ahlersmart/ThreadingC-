@@ -10,12 +10,12 @@ namespace TableTopWarGameSimulator
 {
     internal class Infantry : AbstractUnit
     {
-        public Infantry(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : base(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons)
+        public Infantry(string name, int value, int movement, int toughness, int safe, int hp, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : base(name, value, movement, toughness, safe, hp, leadership, rangeWeapons, meleeWeapons)
         {
         }
 
         [JsonConstructor]
-        public Infantry(string name, int value, int movement, int toughness, int safe, int wounds, int leadership, Armory armory) : base(name, value, movement, toughness, safe, wounds, leadership, armory)
+        public Infantry(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory) : base(name, value, movement, toughness, safe, hp, leadership, armory)
         {
         }
     }
