@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-16T17:02:11.307</Modified>
+      <Modified>2024-05-16T21:18:31.924</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-16T17:02:11.067</Modified>
+      <Modified>2024-05-16T21:18:31.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.runtimeconfig.json">
       <PackagePath>TableTopWarGameSimulator.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.dll">
       <PackagePath>TableTopWarGameSimulator.dll</PackagePath>
-      <Modified>2024-05-16T17:02:09.470</Modified>
+      <Modified>2024-05-16T21:18:31.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TableTopWarGameSimulator.exe</PackagePath>
-      <Modified>2024-05-16T17:02:09.632</Modified>
+      <Modified>2024-05-16T21:18:31.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

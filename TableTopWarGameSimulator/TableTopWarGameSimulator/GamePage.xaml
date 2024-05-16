@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
              x:Class="TableTopWarGameSimulator.GamePage">
-
-    <Grid RowDefinitions="70,*">
+    <ScrollView>
+        <Grid RowDefinitions="70,70,70,70,70,70,1080">
         <Button Text="Remove Data" Clicked="Button_Clicked" Margin="10"/>
 
-        <dg:DataGrid Grid.Row="1" ItemsSource="{Binding GridGame}" SelectionMode="Single"
+        <dg:DataGrid Grid.Row="6" ItemsSource="{Binding GridGame}" SelectionMode="Single"
                      SelectedItem="{Binding SelectedRow}"
                      RowHeight="50" PullToRefreshCommand="{Binding RefreshCommand}"
                      IsRefreshing="{Binding IsRefreshing}">
@@ -185,5 +185,6 @@
                 </dg:PaletteCollection>
             </dg:DataGrid.RowsBackgroundColorPalette>
         </dg:DataGrid>
-    </Grid>
+        </Grid>
+    </ScrollView>
 </ContentPage>

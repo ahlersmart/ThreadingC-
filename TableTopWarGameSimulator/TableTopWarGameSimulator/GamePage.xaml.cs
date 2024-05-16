@@ -48,6 +48,11 @@ namespace TableTopWarGameSimulator
             }
             Trace.WriteLine("Test LoadMap Started3");
         }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            gridGame.Clear();
+            LoadMap();
+        }
 
         private void createArmies()
         {
@@ -98,7 +103,9 @@ namespace TableTopWarGameSimulator
             ArmyList RedArmy = new ArmyList("RedArmy", "Player2", "Faction1", army);
             this.armies.Add(blueArmy);
             this.armies.Add(RedArmy);
+
             
+
             /**
             List<string> list = new();
             foreach(ArmyList al in this.armies)
