@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TableTopWarGameSimulator.EditUnit"
+             Title="EditUnit">
+
+    <Grid RowDefinitions="50, 50, 50, *"
+      ColumnDefinitions=".25*, .50*, .25*"
+      RowSpacing="10"
+      ColumnSpacing="10"
+      BackgroundColor="Grey">
+
+        <Button Text="Back"
+            Grid.Row="0"
+            Grid.Column="2"
+            Clicked="Button_Clicked_Back"
+            BackgroundColor="DarkRed" />
+
+        <Label Text="Unit Name" 
+           Grid.Row="0"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Name"
+           Grid.Row="0"
+           Grid.Column="1" />
+
+        <Label Text="Unit Value" 
+           Grid.Row="1"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Value"
+           Grid.Row="1"
+           Grid.Column="1" />
+
+        <Label Text="Unit Movement" 
+           Grid.Row="2"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Movement"
+           Grid.Row="2"
+           Grid.Column="1" />
+
+        <Label Text="Unit Toughness" 
+           Grid.Row="3"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Toughness"
+           Grid.Row="3"
+           Grid.Column="1" />
+
+        <Label Text="Unit Safe" 
+           Grid.Row="4"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Safe"
+           Grid.Row="4"
+           Grid.Column="1" />
+
+        <Label Text="Unit Wounds" 
+           Grid.Row="5"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Wounds"
+           Grid.Row="5"
+           Grid.Column="1" />
+
+        <Label Text="Unit Leadership" 
+           Grid.Row="6"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Leadership"
+           Grid.Row="6"
+           Grid.Column="1" />
+
+        <Label Text="Unit Position X" 
+           Grid.Row="7"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit X"
+           Grid.Row="7"
+           Grid.Column="1" />
+
+        <Label Text="Unit Position Y" 
+           Grid.Row="8"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Y"
+           Grid.Row="8"
+           Grid.Column="1" />
+
+        <Label Text="Unit Objective Control" 
+           Grid.Row="9"
+           Grid.Column="0"/>
+
+        <Entry Placeholder="Enter Unit Objective Control"
+           Grid.Row="9"
+           Grid.Column="1" />
+
+        <Button Text="Edit Unit"
+            Grid.Row="10"
+            Grid.Column="2"
+            Clicked="Button_Clicked_EditUnit"
+            BackgroundColor="OrangeRed" />
+
+    </Grid>
+</ContentPage>

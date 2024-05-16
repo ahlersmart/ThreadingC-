@@ -1,189 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
              x:Class="TableTopWarGameSimulator.MainPage">
 
-    <Grid RowDefinitions="70,*">
-        <Button Text="Remove Data" Clicked="Button_Clicked" Margin="10"/>
+    <Grid RowDefinitions="50, 50, 50, *"
+      ColumnDefinitions=".25*, .50*, .25*"
+      RowSpacing="10"
+      ColumnSpacing="10"
+      BackgroundColor="Grey">
 
-        <dg:DataGrid Grid.Row="1" ItemsSource="{Binding GridGame}" SelectionMode="Single"
-                     SelectedItem="{Binding SelectedRow}"
-                     RowHeight="50" PullToRefreshCommand="{Binding RefreshCommand}"
-                     IsRefreshing="{Binding IsRefreshing}">
-            <dg:DataGrid.NoDataView>
-                <Label Text="No game has started yet or no data has been found" HorizontalOptions="Center" VerticalOptions="Center"/>
-            </dg:DataGrid.NoDataView>
-            <dg:DataGrid.Columns>
-                <!-- bug in here somewhere-->
-                <dg:DataGridColumn Title="X1" PropertyName="GridColumn0" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                            Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X2" PropertyName="GridColumn1" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X3" PropertyName="GridColumn2" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X4" PropertyName="GridColumn3" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X5" PropertyName="GridColumn4" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X6" PropertyName="GridColumn5" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X7" PropertyName="GridColumn6" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X8" PropertyName="GridColumn7" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X9" PropertyName="GridColumn8" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X10" PropertyName="GridColumn9" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X11" PropertyName="GridColumn10" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X12" PropertyName="GridColumn10" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X13" PropertyName="GridColumn12" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X14" PropertyName="GridColumn13" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X15" PropertyName="GridColumn14" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X16" PropertyName="GridColumn15" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X17" PropertyName="GridColumn16" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X18" PropertyName="GridColumn17" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X19" PropertyName="GridColumn18" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <dg:DataGridColumn Title="X20" PropertyName="GridColumn19" Width="50" SortingEnabled="False">
-                    <dg:DataGridColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 
-                Aspect="AspectFit" HeightRequest="50"/>
-                        </DataTemplate>
-                    </dg:DataGridColumn.CellTemplate>
-                </dg:DataGridColumn>
-                <!-- bug in here somewhere-->
-            </dg:DataGrid.Columns>
-            <dg:DataGrid.RowsBackgroundColorPalette>
-                <dg:PaletteCollection>
-                    <Color>#F2F2F2</Color>
-                    <Color>#FFFFFF</Color>
-                </dg:PaletteCollection>
-            </dg:DataGrid.RowsBackgroundColorPalette>
-        </dg:DataGrid>
+        <Label  Grid.Row="0" Grid.Column="0"
+                Text="Welcome to Tabletop Wargame Simulator"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2" />
+
+        <Button Grid.Row="1" Grid.Column="0"
+                x:Name="GameButton" HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="Go to game menu" 
+                SemanticProperties.Hint="Go to game menu"
+                Clicked="GoToGame" />
+
+        <Button Grid.Row="2" Grid.Column="0"
+                x:Name="FactionButton" HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="Go to faction menu" 
+                SemanticProperties.Hint="Go to main menu"
+                Clicked="GoToFaction" />
+
+        <Button Grid.Row="3" Grid.Column="0"
+                x:Name="UnitOverview" HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="Go to unit overview menu" 
+                SemanticProperties.Hint="Go to unit overview menu"
+                Clicked="GoToUnitOverview" />
+
+        <Label Grid.Row="4" Grid.Column="0" Text="Factions" FontSize="24" TextColor="White" />
+
+        <CollectionView Margin="0, 20, 20, 20"
+                        Grid.Row="4" Grid.Column="1" >
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Faction One</x:String>
+                    <x:String>Faction Two</x:String>
+                    <x:String>Faction Three</x:String>
+                    <x:String>Faction Four</x:String>
+                    <x:String>Faction Five</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="0, 5">
+                        <Frame BackgroundColor="White">
+                            <Label Text="{Binding .}"
+                                       FontSize="16" 
+                                       TextColor="Black"/>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </Grid>
 </ContentPage>
