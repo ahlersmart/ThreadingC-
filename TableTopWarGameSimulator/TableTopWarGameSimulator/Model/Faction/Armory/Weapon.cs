@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
-    internal abstract class Weapon
+    public abstract class Weapon
     {
         private int _distance;
         private string _name;

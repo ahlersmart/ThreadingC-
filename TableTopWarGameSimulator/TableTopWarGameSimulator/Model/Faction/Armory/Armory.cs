@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
-    internal class Armory
+    public class Armory
     {
         private List<Range> _rangeList;
         private List<Melee> _meleeList;

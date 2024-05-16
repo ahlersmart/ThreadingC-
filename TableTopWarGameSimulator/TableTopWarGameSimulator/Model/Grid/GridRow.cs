@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 { 
-    internal class GridRow
+    public class GridRow
     {
         private string _GridColumn0;
         public string GridColumn0

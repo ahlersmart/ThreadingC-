@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
-    internal class Range : Weapon
+    public class Range : Weapon
     {
         public Range(int distance, string name, int dmg) : base(distance, name, dmg)
         {

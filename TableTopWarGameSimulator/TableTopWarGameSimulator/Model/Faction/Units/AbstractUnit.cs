@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
-    internal abstract class AbstractUnit
+    public class AbstractUnit
     {
         private string _name;
         private int _value, _movement, _toughness, _safe, _hp, _leadership; // unit values
@@ -70,7 +70,7 @@ namespace TableTopWarGameSimulator
 
         public Armory armory { get; set; }
 
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory)
+        public AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory)
         {
             this._name = name;
             this._value = value;

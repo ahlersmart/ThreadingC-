@@ -9,31 +9,23 @@ namespace TableTopWarGameSimulator
         private readonly HttpClient httpClient = new();
         public bool IsRefreshing { get; set; }
         public ObservableCollection<Monkey> Monkeys { get; set; } = new();
-        private ObservableCollection<GridRow> GridGame { get; set; } = new();
+        public ObservableCollection<GridRow> GridGame { get => gridGame; set => gridGame = value; }
         public Command RefreshCommand { get; set; }
         public Monkey SelectedMonkey { get; set; }
-        private GridRow SelectedRow { get; set; }
+        public GridRow SelectedRow { get; set; }
         int count = 0;
         List<ArmyList> armies = new();
         Game game;
+        private ObservableCollection<GridRow> gridGame = new();
 
         public MainPage()
         {
             createArmies();
             this.game = new Game(armies[0], armies[1]);
-            RefreshCommand = new Command(async () =>
-            {
-                await Task.Delay(2000);
-                await LoadMap(armies[0], armies[1]);
-
-                IsRefreshing = false;
-                OnPropertyChanged(nameof(IsRefreshing));
-            });
-
-            foreach (GridRow row in GridGame)
-            {
-                Trace.WriteLine("Row 1:" + row.GridColumn0);
-            }
+            
+            LoadMap();
+            IsRefreshing = false;
+            OnPropertyChanged(nameof(IsRefreshing));
 
             BindingContext = this;
             InitializeComponent();
@@ -63,12 +55,17 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        private async Task LoadMap(ArmyList Army1, ArmyList Army2) 
+        private void LoadMap() 
         {
-            await Task.Delay(1000);
-            Grid gameGrid = new Grid(Army1, Army2);
+            Trace.WriteLine("Test LoadMap Started1");
+            Grid gameGrid = game.grid;
             GridGame = gameGrid.grid;
-            Debug.WriteLine("Test LoadMap Completed");
+
+            foreach (GridRow row in GridGame)
+            {
+                Trace.WriteLine("Row 1:" + row.GridColumn0);
+            }
+            Trace.WriteLine("Test LoadMap Started3");
         }
 
         private void createArmies()
