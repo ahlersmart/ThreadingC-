@@ -32,14 +32,14 @@ namespace TableTopWarGameSimulator
         private void inizialize(ArmyList army1, ArmyList army2)
         {
             int row = 0;
-            int column = 1;
+            int column = 0;
             foreach (AbstractUnit unit in army1.army)
             {
                 this._grid[row].setUnit(column, unit, 0);
 
                 if (column == 20)
                 {
-                    column = 1;
+                    column = 0;
                     row++;
                 }
                 else
@@ -49,14 +49,14 @@ namespace TableTopWarGameSimulator
             }
 
             row = this._grid.Count-1;
-            column = 1;
+            column = 0;
             foreach (AbstractUnit unit in army2.army)
             {
                 this._grid[row].setUnit(column, unit, 1);
 
                 if (column == 20)
                 {
-                    column = 1;
+                    column = 0;
                     row--;
                 }
                 else
