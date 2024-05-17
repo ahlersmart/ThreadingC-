@@ -82,6 +82,22 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        public static async Task WriteJSONToFileAsync(List<string> jsonStrings, string FileName)
+        {
+            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
+            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
+            //@".\SaveData";
+            path = Path.Combine(path, FileName);
+
+            string jsonString = JSONObject.ObjectToJSON(jsonStrings);
+
+            // Use StreamWriter asynchronously to write to the file
+            using (StreamWriter outputFile = new StreamWriter(path))
+            {
+                await outputFile.WriteAsync(jsonString);
+            }
+        }
+
         // Method to read a JSONFile
         public static List<string> ReadJSONFile(string FileName)
         {
@@ -100,16 +116,19 @@ namespace TableTopWarGameSimulator
         public static async Task<List<string>> ReadJSONFileAsync(string FileName)
         {
             string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
+             @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
             //@".\SaveData";
             string jsonString = "";
 
+            // Use StreamReader asynchronously to read the file
             using (StreamReader sr = new StreamReader(Path.Combine(path, FileName)))
             {
                 jsonString = await sr.ReadToEndAsync();
             }
 
-            List<string> list = (List<string>)JSONObject.JSONToObject(jsonString);
+            // Parse JSON
+            List<string> list = (List<string>) JSONObject.JSONToObject(jsonString);
+
             return list;
         }
     }

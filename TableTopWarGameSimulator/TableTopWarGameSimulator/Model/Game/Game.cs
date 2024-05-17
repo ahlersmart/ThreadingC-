@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //This class has all functions a games performes
     internal class Game
     {
         private Gamemode _gamemode;
@@ -38,15 +39,18 @@ namespace TableTopWarGameSimulator
             set => this._playerRound = value;
         }
 
+        //a game needs the phases it uses and the armies that are playing. It will make a grid with this.
+        //this grid is what is played on.
         public Game(ArmyList blueArmy, ArmyList redArmy)
         {
             this._gamemode = new Gamemode("40kLite");
             this.phases = new Phase[3];
             setPhases();
             _grid = new Grid(blueArmy, redArmy);
-            setRound();
+            playerRound = 0;
         }
 
+        //set the phases that will be used this game.
         public void setPhases()
         {
             var movement = new Movement();
@@ -60,6 +64,7 @@ namespace TableTopWarGameSimulator
             this._currentPhase = 0;
         }
 
+        //go to the next phase and reset all units to not used jet. if the last phase has been used change the turn to the other team.
         public void nextPhase()
         {
             if (this._currentPhase == 2) 
@@ -83,19 +88,14 @@ namespace TableTopWarGameSimulator
                 return "Red Army has won.";
             }
         }
-
+        
+        //roll a d6rice
         public int rollDice()
         {
             return DiceRoller.rollD6();
         }
 
-        public void setRound()
-        {
-            Random rand = new Random();
-            int number = rand.Next(0, 1);
-            this._playerRound = number;
-        }
-
+        //set the round to the next player
         public void nextRound()
         {
             if (this._playerRound == 0)
@@ -108,6 +108,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //depending on the current phase an action will be performed. currently this can be moving, meleeatack or rangeattack
         public bool phaseAction(int currentRow, int currentColumn, int newRow, int newColumn)
         {
             return this.currentPhase.doPhase(this._grid, currentRow, currentColumn, newRow, newColumn, this._playerRound);

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 { 
+    //class that represents the row of a grid.
     public class GridRow
     {
         private string _GridColumn0;
@@ -161,12 +162,13 @@ namespace TableTopWarGameSimulator
         static readonly string infantryRed = "redsoldier.png";
         static readonly string beastRed = "redbeast.png";
 
-
+        //the grid holds all the images of the squares and also the units that are currently occupying those squares.
         public GridRow()
         {
             inizialize();
         }
 
+        //set all images to floor and inizialize an empty array for the units.
         private void inizialize()
         {
             this._GridColumn0 = floor;
@@ -193,6 +195,7 @@ namespace TableTopWarGameSimulator
             units = new Tuple<AbstractUnit, int>[20];
         }
 
+        //return a unit and which army it belongs to on the square that is requested
         public Tuple<AbstractUnit, int> getUnit(int column)
         {
             if (column >= 0 && column < 20)
@@ -205,6 +208,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //changes the image of a square.
         public void setImage(int column, string item)
         {
             if (column >= 0 && column < 20)
@@ -279,6 +283,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //sets a unit on a square.
         public void setUnit(int column, AbstractUnit unit, int army)
         {
             if (column >= 0 && column < 20)
@@ -354,6 +359,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //get the imagelink belonging to an object.
         static string getImage(string item)
         {
             switch(item.ToLower())
@@ -379,6 +385,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //get an image link belonging to a unit with the right army.
         static string getImage(AbstractUnit unit, int Army)
         {
             if(Army == 0 || Army == 1)
@@ -419,6 +426,7 @@ namespace TableTopWarGameSimulator
             return "";
         }
 
+        //removes a unit from the grid and returns it.
         public Tuple<AbstractUnit, int> removeUnit( int column )
         {
             if ( column >= 0 && column < 20 )
@@ -434,6 +442,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //attack a unit for a certain amount of damage
         public void attack(int column, int dmg)
         {
             if(column >= 0 && column < 20 )
@@ -449,6 +458,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //reset all units in this row to unused
         public void resetUsed()
         {
             for(int i = 0; i < this.units.Length; i++)

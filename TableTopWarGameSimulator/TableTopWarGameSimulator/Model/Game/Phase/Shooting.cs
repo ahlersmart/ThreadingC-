@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //in the shooting face a range attack can be preformed
     internal class Shooting : Phase
     {
         public string name { get; set; }

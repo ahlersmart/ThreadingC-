@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //in the movement phase units can move around on the board
     internal class Movement : Phase
     {
         public string name { get; set; }

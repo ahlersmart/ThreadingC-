@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //class that represent the factions a unit can belong to.
     internal class Faction
     {
         private string _name;
@@ -19,6 +20,7 @@ namespace TableTopWarGameSimulator
             set => this._name = value;
         }
 
+        //faction holds a name and a list with units belonging to it
         public Faction(string name)
         {
             this.name = name;

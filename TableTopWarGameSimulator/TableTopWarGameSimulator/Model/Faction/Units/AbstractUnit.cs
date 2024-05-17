@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //Class to represent the unit for the game
     public class AbstractUnit
     {
         private string _name;
@@ -70,6 +71,7 @@ namespace TableTopWarGameSimulator
 
         public Armory armory { get; set; }
 
+        //a unit will have a name. a score value. an amount of movement. minimal dice roll to hit. how much life is left and weapons
         public AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory)
         {
             this._name = name;
@@ -93,21 +95,25 @@ namespace TableTopWarGameSimulator
         public List<Melee> getMeleeWeapons() { return this._armory.meleeList; }
         public void setMeleeWeapons(List<Melee> meleeWeapons) { this._armory.meleeList = meleeWeapons; }
 
+        //see if unit is already used
         public bool getIfUser()
         {
             return _ifUsed;
         }
 
+        //set a unit to used
         public void setUsed()
         {
             this._ifUsed = true;
         }
 
+        //set a unit to unused
         public void resetUsed()
         {
             this._ifUsed = false;
         }
 
+        //the change in life when attacked
         public int setAttacked(int attack)
         {
             _hp -= attack;
@@ -124,11 +130,13 @@ namespace TableTopWarGameSimulator
             return this._armory.getRangeAttack();
         }
 
+        //return the damage for a melee attack
         public int getMeleeDamage()
         {
             return this._armory.getMeleeDamage();
         }
 
+        //returns a string with which type of unit it is.
         public string getUnitTypeString()
         {
             if (this is Infantry)

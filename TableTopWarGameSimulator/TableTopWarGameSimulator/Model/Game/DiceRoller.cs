@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //a class to roll a dice asynchronomous.
     public static class DiceRoller
     {
         private static int D4=0;
@@ -16,12 +17,15 @@ namespace TableTopWarGameSimulator
         private static int D12=0;
         private static int D20=0;
 
+        //class that roles the dice
         private static int rollDice(int size)
         {
             Random rand = new Random();
             return rand.Next(1, size + 1); ;
         }
 
+        //the class checks if the dice has ever been rolled before. If it has it will return the last roll and roll the dice again in a sepperate thread so losing no time.
+        //if it hasn't been roled it will roll it first.
         public static int rollD4()
         {
             if (D4 == 0)

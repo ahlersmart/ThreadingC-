@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //the moral phase
     internal class Morale : Phase
     {
         public string name { get; set; }

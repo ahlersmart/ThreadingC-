@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //calss that represent the gamemodes that can be played.
     internal class Gamemode
     {
         private string _name;

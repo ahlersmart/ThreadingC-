@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //Class that contains weapons for a unit
     public class Armory
     {
         private List<Range> _rangeList;
@@ -50,6 +51,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //return the the damage and the distance of the first range weapon
         public Tuple<int, int> getRangeAttack()
         {
             if (this._rangeList.Count > 0)
@@ -62,6 +64,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //return the damage of the first melee weapon
         public int getMeleeDamage()
         {
             if(this._meleeList.Count > 0)

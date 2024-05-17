@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //in the fighting face a mellee attack can be preformed
     internal class Fighting : Phase
     {
         public string name { get; set; }

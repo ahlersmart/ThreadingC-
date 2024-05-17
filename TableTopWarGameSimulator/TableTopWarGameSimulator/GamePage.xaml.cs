@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Net.Http.Json;
 
@@ -18,14 +19,8 @@ namespace TableTopWarGameSimulator
 
         public GamePage()
         {
-            if (this.armies.Count == 0)
-            {
-                createArmies();
-            }
-            if (this.game == null)
-            {
-                this.game = new Game(armies[0], armies[1]);
-            }
+            readJson();
+            this.game = new Game(armies[0], armies[1]);
             
             LoadMap();
             IsRefreshing = false;
@@ -142,6 +137,22 @@ namespace TableTopWarGameSimulator
             InitializeComponent();
         }
 
+        private void readJson()
+        {
+            List<string> list = JSONObject.ReadJSONFile("ArmyLists.json");
+            if(list.Count == 0) 
+            {
+                createArmies();    
+            }
+            else
+            {
+                foreach (string s in list)
+                {
+                    armies.Add(ArmyList.fromJSON(s));
+                }
+            }
+        }
+
         private void createArmies()
         {
             Melee sword = new Melee("Sword", 2);
@@ -189,8 +200,10 @@ namespace TableTopWarGameSimulator
 
             ArmyList blueArmy = new ArmyList("BlueArmy", "Player1", "Faction1", army);
             ArmyList RedArmy = new ArmyList("RedArmy", "Player2", "Faction1", army);
-            this.armies.Add(blueArmy);
-            this.armies.Add(RedArmy);
+            List<ArmyList> AL = new();
+            armies.Add(blueArmy);
+            armies.Add(RedArmy);
+
 
             /**
             List<string> list = new();

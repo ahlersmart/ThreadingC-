@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //Phases are the differend stages in the game
     interface Phase
     {
-        public String name { get; set; }
+        public string name { get; set; }
         bool doPhase(Grid grid, int currentRow, int currentColumn, int targetRow, int targetColumn, int playerRound);
     }
 }

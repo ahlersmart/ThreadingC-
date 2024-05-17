@@ -8,6 +8,7 @@ using System.Xml.Linq;
 
 namespace TableTopWarGameSimulator
 {
+    //a class that represent the an army that can be played with
     internal class ArmyList
     {
         private string _armyName;
@@ -39,6 +40,7 @@ namespace TableTopWarGameSimulator
             set => this._faction = value;
         }
 
+        //and army belongs to a faction and has to have a list of units that will be used in the game
         public ArmyList(string armyName, string playerName, string faction)
         {
             this._armyName = armyName;

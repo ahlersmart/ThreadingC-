@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //a class that is the grid that is played on.
     internal class Grid
     {
         private ObservableCollection<GridRow> _grid;
@@ -18,6 +19,7 @@ namespace TableTopWarGameSimulator
             set => _grid = value;
         }
 
+        //the grid holds the rows. the current grid that is played on is 20 by 20. the armies will be put on the grid.
         public Grid(ArmyList army1, ArmyList army2)
         {
             this._grid = new();
@@ -30,6 +32,7 @@ namespace TableTopWarGameSimulator
             inizialize(army1, army2);
         }
 
+        //putting the armies on the grid
         private void inizialize(ArmyList army1, ArmyList army2)
         {
             int row = 0;
@@ -67,6 +70,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //putting an image on a square on the grid
         public void setImage(int row, int column, string item)
         {
             if (row >= 0 && row < 20)
@@ -75,6 +79,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //put a unite on a square on the grid.
         public void setUnit(int row, int column, AbstractUnit unit, int Army)
         {
             if (row >= 0 && row < 20)
@@ -83,6 +88,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //moving an unit on the grid. will return true if it is legal. and false if the move is impossible. console will tell why it is impossible.
         public bool move(int currentRow, int currentColumn, int newRow, int newColumn, int playerRound) 
         {
             if (currentRow >= 0 && currentRow < this._grid.Count && currentColumn >= 0 && currentColumn < 20 && newRow >= 0 && newRow < this._grid.Count && newColumn >= 0 && newColumn < 20)
@@ -145,6 +151,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //make a range attack on the grid. will return true if it is legal. and false if the move is impossible. console will tell why it is impossible.
         public bool rangeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
             if (attackerRow >= 0 && attackerRow < this._grid.Count && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < this._grid.Count && targetColumn >= 0 &&  targetColumn < 20)
@@ -197,6 +204,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //making a melee attack on the grid. will return true if it is legal. and false if the move is impossible. console will tell why it is impossible.
         public bool meleeAttack(int attackerRow, int attackerColumn, int targetRow, int targetColumn, int playerRound)
         {
             if (attackerRow >= 0 && attackerRow < this._grid.Count && attackerColumn >= 0 && attackerColumn < 20 && targetRow >= 0 && targetRow < this._grid.Count && targetColumn >= 0 && targetColumn < 20)
@@ -249,6 +257,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        //reset all units not used jet.
         public void resetUsed()
         {
             foreach(GridRow row in this._grid)

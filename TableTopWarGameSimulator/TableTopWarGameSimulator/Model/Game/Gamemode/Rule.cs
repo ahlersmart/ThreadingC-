@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //class that explain the rules of a gamemode
     internal class Rule
     {
         private string description;

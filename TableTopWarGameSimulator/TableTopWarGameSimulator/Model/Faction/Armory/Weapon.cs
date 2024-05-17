@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //Class to represent a weapon for the game
     public abstract class Weapon
     {
         private int _distance;
@@ -30,7 +31,7 @@ namespace TableTopWarGameSimulator
             set => this._dmg = value;
         }
 
-
+        //Weapon will hold a distance for attacking and how much damage it does
         public Weapon(int distance, string name, int dmg)
         {
             this._distance = distance;

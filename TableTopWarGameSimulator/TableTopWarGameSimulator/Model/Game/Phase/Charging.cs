@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //the charging phase
     internal class Charging : Phase
     {
         public string name { get; set; }

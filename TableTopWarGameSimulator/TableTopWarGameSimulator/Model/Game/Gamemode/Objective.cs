@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
+    //class for objectives that need to be captured in the gamemode
     internal class Objective
     {
         public int y, x;
