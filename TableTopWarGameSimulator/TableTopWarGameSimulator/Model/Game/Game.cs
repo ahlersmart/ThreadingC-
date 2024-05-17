@@ -70,6 +70,7 @@ namespace TableTopWarGameSimulator
             {
                 this._currentPhase++;
             }
+            this._grid.resetUsed();
         }
         
         public string resign(int army)
@@ -83,11 +84,9 @@ namespace TableTopWarGameSimulator
             }
         }
 
-        public int rollDice(int diceSize)
+        public int rollDice()
         {
-            Random rand = new Random();
-            int number = rand.Next(1, diceSize);
-            return number;
+            return DiceRoller.rollD6();
         }
 
         public void setRound()
@@ -107,7 +106,6 @@ namespace TableTopWarGameSimulator
             {
                 this._playerRound = 0;
             }
-            this._grid.resetUsed();
         }
 
         public bool phaseAction(int currentRow, int currentColumn, int newRow, int newColumn)

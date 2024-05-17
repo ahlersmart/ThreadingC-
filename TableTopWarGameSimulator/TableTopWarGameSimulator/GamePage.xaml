@@ -7,9 +7,9 @@
         <Grid RowDefinitions="70,70,70,70,70,70,70,1080">
             <Button Text="Next Phase" Clicked="Button_Clicked_Next_Phase" Margin="10" WidthRequest="500"/>
 
-            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="500" Text="Notifications will show here" HorizontalTextAlignment="Center"/>
-            <Picker x:Name="locationPickerXOne" Title="Select Location X1" 
-                    Grid.Row="1" WidthRequest="200">
+            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="500" Text="{Binding currentNotification}" HorizontalTextAlignment="Center"/>
+            <Picker x:Name="locationPickerXOne" Title="locationPickerXOne" 
+                    Grid.Row="1" WidthRequest="200" SelectedIndexChanged="OnPickerSelectedIndexChanged">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -33,8 +33,8 @@
                     <x:String>20</x:String>
                 </Picker.Items>
             </Picker>
-            <Picker x:Name="locationPickerYOne" Title="Select Location Y1" 
-                    Grid.Row="2" WidthRequest="200">
+            <Picker x:Name="locationPickerYOne" Title="locationPickerYOne" 
+                    Grid.Row="2" WidthRequest="200" SelectedIndexChanged="OnPickerSelectedIndexChanged">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -58,8 +58,8 @@
                     <x:String>20</x:String>
                 </Picker.Items>
             </Picker>
-            <Picker x:Name="locationPickerXTwo" Title="Select Location X2" 
-                    Grid.Row="3" WidthRequest="200">
+            <Picker x:Name="locationPickerXTwo" Title="locationPickerXTwo" 
+                    Grid.Row="3" WidthRequest="200" SelectedIndexChanged="OnPickerSelectedIndexChanged">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -83,8 +83,8 @@
                     <x:String>20</x:String>
                 </Picker.Items>
             </Picker>
-            <Picker x:Name="locationPickerYTwo" Title="Select Location Y2" 
-                    Grid.Row="4" WidthRequest="200">
+            <Picker x:Name="locationPickerYTwo" Title="locationPickerYTwo" 
+                    Grid.Row="4" WidthRequest="200" SelectedIndexChanged="OnPickerSelectedIndexChanged">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -207,7 +207,7 @@
                             </DataTemplate>
                         </dg:DataGridColumn.CellTemplate>
                     </dg:DataGridColumn>
-                    <dg:DataGridColumn Title="X12" PropertyName="GridColumn10" Width="50" SortingEnabled="False">
+                    <dg:DataGridColumn Title="X12" PropertyName="GridColumn11" Width="50" SortingEnabled="False">
                         <dg:DataGridColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center" 

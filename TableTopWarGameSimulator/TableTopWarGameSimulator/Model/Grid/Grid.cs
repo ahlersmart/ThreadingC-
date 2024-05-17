@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -107,9 +108,9 @@ namespace TableTopWarGameSimulator
                         {
                             GridRow newGridRow = this._grid[newRow];
                             Tuple<AbstractUnit, int> unitCheck = newGridRow.getUnit(newColumn);
-                            if (unitCheck == null) 
+                            if (unitCheck == null)
                             {
-                                unitTuple = currentGridRow.removeUnit(currentRow);
+                                unitTuple = currentGridRow.removeUnit(currentColumn);
                                 newGridRow.setUnit(newColumn, unitTuple.Item1, unitTuple.Item2);
                                 unit.setUsed();
                                 return true;
@@ -121,21 +122,25 @@ namespace TableTopWarGameSimulator
                         }
                         else
                         {
+                            Debug.WriteLine("Action Fail: Movement out of range.");
                             return false;
                         }
                     }
                     else
                     {
+                        Debug.WriteLine("Action Fail: Movement Unit Used or not it's turn.");
                         return false;
                     }
                 }
                 else
                 {
+                    Debug.WriteLine("Action Fail: Movement No unit on tile.");
                     return false;
                 }
             }
             else
             {
+                Debug.WriteLine("Action Fail: Movement Coordinates out of index.");
                 return false;
             }
         }
@@ -169,21 +174,25 @@ namespace TableTopWarGameSimulator
                         }
                         else
                         {
+                            Debug.WriteLine("Action Fail: Range Attack out of Range.");
                             return false;
                         }
                     }
                     else
                     {
+                        Debug.WriteLine("Action Fail: Range no target or target is teammate.");
                         return false;
                     }
                 }
                 else
                 {
+                    Debug.WriteLine("Action Fail: Range no Unit on tile or Used or not it's turn.");
                     return false;
                 }
             }
             else
             {
+                Debug.WriteLine("Action Fail: Range Coordinates out of index.");
                 return false;
             }
         }
@@ -202,7 +211,7 @@ namespace TableTopWarGameSimulator
                 {
                     columnDifference = columnDifference * -1;
                 }
-                if (rowDifference < 1 && columnDifference < 1)
+                if (rowDifference <= 1 && columnDifference <= 1)
                 {
                     Tuple<AbstractUnit, int> attacker = this._grid[attackerRow].getUnit(attackerColumn);
                     if (attacker != null && attacker.Item1 != null && !attacker.Item1.ifUsed && attacker.Item2 == playerRound)
@@ -216,22 +225,26 @@ namespace TableTopWarGameSimulator
                         }
                         else
                         {
+                            Debug.WriteLine("Action Fail: Melee no target or target is teammate.");
                             return false;
                         }
                     }
                     else
                     {
+                        Debug.WriteLine("Action Fail: Melee no Unit on tile or Used or not it's turn.");
                         return false;
                     }
                 }
                 else
                 {
+                    Debug.WriteLine("Action Fail: Melee Attack out of Range.");
                     return false;
                 }
 
             }
             else
             {
+                Debug.WriteLine("Action Fail: Melee Coordinates out of index.");
                 return false;
             }
         }

@@ -11,24 +11,29 @@ namespace TableTopWarGameSimulator
         public ObservableCollection<GridRow> GridGame { get => gridGame; set => gridGame = value; }
         public Command RefreshCommand { get; set; }
         public GridRow SelectedRow { get; set; }
-        int count = 0;
         private List<ArmyList> armies { get; set; } = new();
         private Game game { get; set; }
         private ObservableCollection<GridRow> gridGame = new();
-        private string finalTextLabel = "Current Phase is Movement.";
+        public string currentNotification { get; set; } = "Initial Notification";
 
         public GamePage()
         {
-            createArmies();
-            this.game = new Game(armies[0], armies[1]);
+            if (this.armies.Count == 0)
+            {
+                createArmies();
+            }
+            if (this.game == null)
+            {
+                this.game = new Game(armies[0], armies[1]);
+            }
             
             LoadMap();
             IsRefreshing = false;
             OnPropertyChanged(nameof(IsRefreshing));
 
             BindingContext = this;
+            updateNotification("Notifications will show here.");
             InitializeComponent();
-            notificationLabel.Text = "Notifications will show here." + finalTextLabel;
         }
 
         protected override void OnNavigatedTo(NavigatedToEventArgs args)
@@ -40,49 +45,101 @@ namespace TableTopWarGameSimulator
 
         private void LoadMap() 
         {
-            Trace.WriteLine("Test LoadMap Started1");
+            Trace.WriteLine("Test Load Map Started");
             Grid gameGrid = game.grid;
             GridGame = gameGrid.grid;
-
-            foreach (GridRow row in GridGame)
-            {
-                Trace.WriteLine("Row 1:" + row.GridColumn0);
-            }
-            Trace.WriteLine("Test LoadMap Started3");
+            Trace.WriteLine("Test Map Loaded");
         }
 
         private void Button_Clicked_Confirm_Action(object sender, EventArgs e)
         {
+            int xOne = locationPickerXOne.SelectedIndex;
+            int yOne = locationPickerYOne.SelectedIndex;
+            int xTwo = locationPickerXTwo.SelectedIndex;
+            int yTwo = locationPickerYTwo.SelectedIndex;
+            bool worked = this.game.phaseAction(xOne, yOne, xTwo, yTwo);
+            LoadMap();
             //make if else statements for all phases
-            if (game.currentPhase.name == "Movement") { 
-                Phase thisPhase = game.currentPhase;
-                int xOne = locationPickerXOne.SelectedIndex + 1;
-                int yOne = locationPickerYOne.SelectedIndex + 1;
-                int xTwo = locationPickerXTwo.SelectedIndex + 1;
-                int yTwo = locationPickerYTwo.SelectedIndex + 1;      
-                thisPhase.doPhase(game.grid, xOne, yOne, xTwo, yTwo, game.playerRound);
-                finalTextLabel = ". Action Performed. Unit Moved.";
-                gridGame.Clear();
-                LoadMap();
-                Navigation.PushAsync(new GamePage());
+            if (this.game.currentPhase is Movement) { 
+                if (worked)
+                {
+                    updateNotification("Action Performed. Unit Moved");
+                } 
+                else
+                {
+                    updateNotification("Invalid action. Movement can not be performed");
+                }
             } 
-            else if (game.currentPhase.name == "Shooting")
+            else if (this.game.currentPhase is Shooting)
             {
-
+                if (worked)
+                {
+                    AbstractUnit U1 = this.game.grid.grid[xOne].getUnit(yOne).Item1;
+                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[xTwo].getUnit(yTwo);
+                    if (U2 == null || U2.Item1 == null)
+                    {
+                        updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), "Unit", true, 0));
+                    }
+                    else
+                    {
+                        updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), U2.Item1.getUnitTypeString(), false, U1.getRangeAttack().Item1));
+                    }
+                }
+                else
+                {
+                    updateNotification("Attack missed or is invalid.");
+                }
             }
-            else if (game.currentPhase.name == "Fighting")
+            else if (this.game.currentPhase is Fighting)
             {
-
+                if (worked)
+                {
+                    AbstractUnit U1 = this.game.grid.grid[xOne].getUnit(yOne).Item1;
+                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[xTwo].getUnit(yTwo);
+                    if (U2 == null || U2.Item1 == null)
+                    {
+                        updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), "Unit", true, 0));
+                    }
+                    else
+                    {
+                        updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), U2.Item1.getUnitTypeString(), false, U1.getMeleeDamage()));
+                    }
+                }
+                else
+                {
+                    updateNotification("Attack missed or is invalid.");
+                }
             }
+            InitializeComponent();
+        }
+
+        private string attackMessage(int xOne, int yOne, int xTwo, int yTwo, string typeAttacker, string typeVictim, bool killed, int damage)
+        {
+            string s = typeAttacker + " (" + (xOne + 1) + "," + (yOne + 1) + ") has ";
+            if (killed)
+            {
+                s += "killed ";
+            }
+            else
+            {
+                s += "hit ";
+            }
+
+            s += typeVictim + "(" + (xTwo + 1) + ", " + (yTwo + 1) + ") ";
+
+            if (!killed)
+            {
+                s += "for " + damage + " Damage.";
+            }
+            return s;
+
         }
 
         private void Button_Clicked_Next_Phase(object sender, EventArgs e)
         {
-            gridGame.Clear();
-            LoadMap();
-            Navigation.PushAsync(new GamePage());
-            Trace.WriteLine(game.currentPhase.name);
-            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
+            this.game.nextPhase();
+            updateNotification("New Phase started");
+            InitializeComponent();
         }
 
         private void createArmies()
@@ -150,6 +207,26 @@ namespace TableTopWarGameSimulator
                 armies2.Add(ArmyList.fromJSON(s));
             }
             **/
+        }
+
+        private void OnPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+            Picker newPicker = (Picker)sender;
+            Picker currentPicker = this.FindByName<Picker>(newPicker.Title);
+            currentPicker.SelectedIndex = newPicker.SelectedIndex;
+        }
+
+        private void updateNotification(string notification)
+        {
+            if (this.game.playerRound == 0)
+            {
+                this.currentNotification = "Blue Army is on the Move. ";
+            }
+            else if(this.game.playerRound == 1)
+            {
+                this.currentNotification = "Red Army is on the Move. ";
+            }
+            this.currentNotification += "Current phase is " + this.game.currentPhase.name + ". " + notification;
         }
     }
 

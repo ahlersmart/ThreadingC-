@@ -118,6 +118,7 @@ namespace TableTopWarGameSimulator
             return _hp;
         }
 
+        //returns an item with the damage as the first integer and the range as the second.
         public Tuple<int, int> getRangeAttack()
         {
             return this._armory.getRangeAttack();
@@ -126,6 +127,26 @@ namespace TableTopWarGameSimulator
         public int getMeleeDamage()
         {
             return this._armory.getMeleeDamage();
+        }
+
+        public string getUnitTypeString()
+        {
+            if (this is Infantry)
+            {
+                return "Soldier";
+            }
+            else if (this is Beast)
+            {
+                return "Beast";
+            } 
+            else if (this is Vehicle)
+            {
+                return "Tank";
+            }
+            else
+            {
+                return "Unit";
+            }
         }
 
         public string toJSON()
