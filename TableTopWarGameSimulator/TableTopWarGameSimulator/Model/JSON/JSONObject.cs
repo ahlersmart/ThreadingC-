@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace TableTopWarGameSimulator
 {
@@ -67,28 +68,37 @@ namespace TableTopWarGameSimulator
         }
 
         // Method to save a List of JSONStrings to a File
-        public static async Task WriteJSONToFile(List<string> jsonStrings, string FileName)
+        public static void WriteJSONToFile(List<string> jsonStrings, string FileName)
         {
-            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            //@".\SaveData";
-            path = Path.Combine(path, FileName);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 
-            string jsonString = JSONObject.ObjectToJSON(jsonStrings);
-
+            path = Path.Combine(path, "ThreadingTTGame", "SaveData", FileName);
+            if (!File.Exists(path))
+            {
+                File.Create(path).Close();
+            }
+            string jsonString = JSONObject.ListToJSON(jsonStrings);
             using (StreamWriter outputFile = new StreamWriter(path))
             {
-                await outputFile.WriteAsync(jsonString);
+                outputFile.Write(jsonString);
             }
         }
 
         public static async Task WriteJSONToFileAsync(List<string> jsonStrings, string FileName)
         {
-            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            //@".\SaveData";
-            path = Path.Combine(path, FileName);
+            Debug.WriteLine("Making SaveData Async");
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
+            path = Path.Combine(path, "ThreadingTTGame", "SaveData");
+            if(!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            path = Path.Combine(path, FileName);
+            if (!File.Exists(path))
+            {
+                File.Create(path).Close();
+            }
             string jsonString = JSONObject.ObjectToJSON(jsonStrings);
 
             // Use StreamWriter asynchronously to write to the file
@@ -96,36 +106,47 @@ namespace TableTopWarGameSimulator
             {
                 await outputFile.WriteAsync(jsonString);
             }
+            Debug.WriteLine("Savefile made");
         }
 
         // Method to read a JSONFile
         public static List<string> ReadJSONFile(string FileName)
         {
-            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            //@".\SaveData";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string jsonString = "";
-            using (StreamReader sr = new StreamReader(Path.Combine(path, FileName)))
+            try
             {
-                jsonString = sr.ReadToEnd();
+                using (StreamReader sr = new StreamReader(Path.Combine(path, "ThreadingTTGame", "SaveData", FileName)))
+                {
+                    jsonString = sr.ReadToEnd();
+                }
+            } 
+            catch(Exception e)
+            {
+                return new List<string>();
             }
             List<string> list = (List<string>) JSONObject.JSONToObject(jsonString);
+            Debug.WriteLine(list.Count);
             return list;
         }
 
         public static async Task<List<string>> ReadJSONFileAsync(string FileName)
         {
-            string path = //@"E:\Github Desktop\Repositories\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-             @"D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\SaveData";
-            //@".\SaveData";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string jsonString = "";
 
             // Use StreamReader asynchronously to read the file
-            using (StreamReader sr = new StreamReader(Path.Combine(path, FileName)))
+            try
             {
-                jsonString = await sr.ReadToEndAsync();
+                using (StreamReader sr = new StreamReader(Path.Combine(path, "ThreadingTTGame", "SaveData", FileName)))
+                {
+                    jsonString = await sr.ReadToEndAsync();
+                }
             }
-
+            catch (Exception e)
+            {
+                return new List<string>();
+            }
             // Parse JSON
             List<string> list = (List<string>) JSONObject.JSONToObject(jsonString);
 

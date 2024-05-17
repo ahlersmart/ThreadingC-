@@ -142,7 +142,13 @@ namespace TableTopWarGameSimulator
             List<string> list = JSONObject.ReadJSONFile("ArmyLists.json");
             if(list.Count == 0) 
             {
-                createArmies();    
+                createArmies();
+                List<string> jsonList = new();
+                foreach (ArmyList al in this.armies)
+                {
+                    jsonList.Add(al.toJSON());
+                }
+                _ = JSONObject.WriteJSONToFileAsync(jsonList, "ArmyLists.json");
             }
             else
             {
@@ -200,7 +206,6 @@ namespace TableTopWarGameSimulator
 
             ArmyList blueArmy = new ArmyList("BlueArmy", "Player1", "Faction1", army);
             ArmyList RedArmy = new ArmyList("RedArmy", "Player2", "Faction1", army);
-            List<ArmyList> AL = new();
             armies.Add(blueArmy);
             armies.Add(RedArmy);
 
