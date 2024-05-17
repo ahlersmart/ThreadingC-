@@ -59,17 +59,17 @@ namespace TableTopWarGameSimulator
             switch (unitType)
             {
                 case "Beast":
-                    newUnit = new Beast(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
+                    newUnit = new Beast(name, value, movement, toughness, safe, wounds, leadership, new Armory(rangeWeapons, meleeWeapons));
                     addUnit(newUnit);
 
                     break;
                 case "Infantry":
-                    newUnit = new Infantry(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
+                    newUnit = new Infantry(name, value, movement, toughness, safe, wounds, leadership, new Armory(rangeWeapons, meleeWeapons));
                     addUnit(newUnit);
 
                     break;
                 case "Vehicle":
-                    newUnit = new Vehicle(name, value, movement, toughness, safe, wounds, leadership, rangeWeapons, meleeWeapons);
+                    newUnit = new Vehicle(name, value, movement, toughness, safe, wounds, leadership, new Armory(rangeWeapons, meleeWeapons));
                     addUnit(newUnit);
 
                     break;

@@ -70,14 +70,19 @@ namespace TableTopWarGameSimulator
         // Method to save a List of JSONStrings to a File
         public static void WriteJSONToFile(List<string> jsonStrings, string FileName)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-            path = Path.Combine(path, "ThreadingTTGame", "SaveData", FileName);
+            path = Path.Combine(path, "ThreadingTTGame", "SaveData");
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            path = Path.Combine(path, FileName);
             if (!File.Exists(path))
             {
                 File.Create(path).Close();
             }
-            string jsonString = JSONObject.ListToJSON(jsonStrings);
+            string jsonString = JSONObject.ObjectToJSON(jsonStrings);
             using (StreamWriter outputFile = new StreamWriter(path))
             {
                 outputFile.Write(jsonString);
@@ -132,7 +137,7 @@ namespace TableTopWarGameSimulator
 
         public static async Task<List<string>> ReadJSONFileAsync(string FileName)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string jsonString = "";
 
             // Use StreamReader asynchronously to read the file

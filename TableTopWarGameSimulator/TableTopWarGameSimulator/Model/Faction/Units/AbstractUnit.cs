@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
@@ -69,9 +70,13 @@ namespace TableTopWarGameSimulator
             get => this._ifUsed;
         }
 
-        public Armory armory { get; set; }
+        public Armory armory {
+            get => this._armory;
+            set => this._armory = value;
+        }
 
         //a unit will have a name. a score value. an amount of movement. minimal dice roll to hit. how much life is left and weapons
+        [JsonConstructor]
         public AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, Armory armory)
         {
             this._name = name;
@@ -84,10 +89,6 @@ namespace TableTopWarGameSimulator
             this._leadership = leadership;
             this._armory = armory;
             this._ifUsed = false;
-        }
-
-        protected AbstractUnit(string name, int value, int movement, int toughness, int safe, int hp, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons) : this(name, value,  movement, toughness, safe, hp, leadership, new Armory(rangeWeapons, meleeWeapons))
-        {
         }
 
         public List<Range> getRangeWeapons() { return this._armory.rangeList; }
