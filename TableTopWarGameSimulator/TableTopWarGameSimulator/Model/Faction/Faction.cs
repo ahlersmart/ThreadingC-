@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TableTopWarGameSimulator
 {
-    //class that represent the factions a unit can belong to.
+    // Class that represent the factions a unit can belong to.
     internal class Faction
     {
         private string _name;
@@ -20,7 +20,7 @@ namespace TableTopWarGameSimulator
             set => this._name = value;
         }
 
-        //faction holds a name and a list with units belonging to it
+        // Faction holds a name and a list with units belonging to it
         public Faction(string name)
         {
             this.name = name;
@@ -32,14 +32,17 @@ namespace TableTopWarGameSimulator
             this.units = units;
         }
 
+        // Method to add a pre-created unit to the faction, ensuring no duplicates
         public void addUnit(AbstractUnit unit)
         {
+            // If no unit exist in faction add unit
             if (units.Count == 0)
             {
                 this.units.Add(unit);
             }
             else
             {
+                // Loop to check if unit name is already in use
                 foreach (var existingUnit in units)
                 {
                     if (existingUnit.name == unit.name)
@@ -52,6 +55,7 @@ namespace TableTopWarGameSimulator
             }
         }
 
+        // Method to create and add a new unit to the faction based on unit type
         public void addNewUnit(string unitType, string name, int value, int movement, int toughness, int safe, int wounds, int leadership, List<Range> rangeWeapons, List<Melee> meleeWeapons)
         {
             AbstractUnit newUnit;
@@ -80,10 +84,12 @@ namespace TableTopWarGameSimulator
 
         public List<AbstractUnit> getUnits() { return units; }
 
+        // Method to create an army
         public List<AbstractUnit> createArmy(Dictionary<string, int> unitCounts)
         {
             List<AbstractUnit> newArmy = new List<AbstractUnit>();
 
+            // Loop over each entry in the unitCounts dictionary
             foreach (var unit in unitCounts)
             {
                 string unitName = unit.Key;
@@ -93,8 +99,10 @@ namespace TableTopWarGameSimulator
 
                 if (existingUnit != null)
                 {
+                    // Loop though amount of the selected unit to be added
                     for (int i = 0; i < amount; i++)
                     {
+                        // Create new thread to add the unit to the army list
                         Thread addUnitToArmyThread = new Thread(() =>
                         {
                             semaphore.Wait();
@@ -102,22 +110,26 @@ namespace TableTopWarGameSimulator
                             semaphore.Release();
                         });
 
-                        addUnitToArmyThread.Start();
+                        // Start the thread
+                        addUnitToArmyThread.Start(); 
                     }
                 }
                 else
                 {
+                    // Throw an exception if the unit does not exist in the faction
                     throw new ArgumentException($"Unit '{unitName}' does not exist in the faction.");
                 }
 
             }
 
+            // Allow time for all threads to finish adding units to the list
             Thread.Sleep(1000);
             while (semaphore.CurrentCount != 4) { }
 
             return newArmy;
         }
 
+        // Method to retrieve a unit from the list by its name
         public AbstractUnit getUnitFromList(string unitName)
         {
             foreach (var unit in units)

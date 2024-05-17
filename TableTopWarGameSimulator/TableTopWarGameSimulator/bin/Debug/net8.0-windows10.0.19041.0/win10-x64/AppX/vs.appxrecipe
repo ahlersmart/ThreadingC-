@@ -29,25 +29,25 @@
     <AppXManifest Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-17T07:18:30.322</Modified>
+      <Modified>2024-05-17T19:39:31.294</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-17T07:18:30.177</Modified>
+      <Modified>2024-05-17T19:39:31.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.runtimeconfig.json">
       <PackagePath>TableTopWarGameSimulator.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-16T03:00:30.948</Modified>
+      <Modified>2024-05-17T19:21:02.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.dll">
       <PackagePath>TableTopWarGameSimulator.dll</PackagePath>
-      <Modified>2024-05-17T07:18:29.611</Modified>
+      <Modified>2024-05-17T19:39:30.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TableTopWarGameSimulator.exe</PackagePath>
-      <Modified>2024-05-17T07:18:29.676</Modified>
+      <Modified>2024-05-17T19:39:30.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -331,7 +331,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github Desktop\Repositories\ThreadingBrokeAgainLmao\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TableTopWarGameSimulator.deps.json">
       <PackagePath>TableTopWarGameSimulator.deps.json</PackagePath>
-      <Modified>2024-05-16T03:00:30.921</Modified>
+      <Modified>2024-05-17T19:21:02.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\VisualTunic488\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
