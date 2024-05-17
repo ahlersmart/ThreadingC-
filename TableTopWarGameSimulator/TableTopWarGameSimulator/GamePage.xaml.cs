@@ -52,7 +52,7 @@ namespace TableTopWarGameSimulator
             int yOne = locationPickerYOne.SelectedIndex;
             int xTwo = locationPickerXTwo.SelectedIndex;
             int yTwo = locationPickerYTwo.SelectedIndex;
-            bool worked = this.game.phaseAction(xOne, yOne, xTwo, yTwo);
+            bool worked = this.game.phaseAction(yOne, xOne, yTwo, xTwo);
             LoadMap();
             //make if else statements for all phases
             if (this.game.currentPhase is Movement) { 
@@ -69,8 +69,8 @@ namespace TableTopWarGameSimulator
             {
                 if (worked)
                 {
-                    AbstractUnit U1 = this.game.grid.grid[xOne].getUnit(yOne).Item1;
-                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[xTwo].getUnit(yTwo);
+                    AbstractUnit U1 = this.game.grid.grid[yOne].getUnit(xOne).Item1;
+                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[yTwo].getUnit(xTwo);
                     if (U2 == null || U2.Item1 == null)
                     {
                         updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), "Unit", true, 0));
@@ -89,8 +89,8 @@ namespace TableTopWarGameSimulator
             {
                 if (worked)
                 {
-                    AbstractUnit U1 = this.game.grid.grid[xOne].getUnit(yOne).Item1;
-                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[xTwo].getUnit(yTwo);
+                    AbstractUnit U1 = this.game.grid.grid[yOne].getUnit(xOne).Item1;
+                    Tuple<AbstractUnit, int> U2 = this.game.grid.grid[yTwo].getUnit(xTwo);
                     if (U2 == null || U2.Item1 == null)
                     {
                         updateNotification(attackMessage(xOne, yOne, xTwo, yTwo, U1.getUnitTypeString(), "Unit", true, 0));

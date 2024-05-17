@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\armylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\armylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +27,23 @@
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VisualTunic488\\AppData\\Local\\Temp\\.vsdbgsrc\\86f0544b7170b725d7a241c962c157275ea48990\\GamePage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\phase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\morale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|e:\\github desktop\\repositories\\threadingbrokeagainlmao\\threadingc-\\tabletopwargamesimulator\\tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42A4C59A-9E58-4EA3-8F30-DF70C491685A}|TableTopWarGameSimulator\\TableTopWarGameSimulator.csproj|solutionrelative:tabletopwargamesimulator\\model\\game\\phase\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,102 +61,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "ArmyList.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\ArmyList.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\ArmyList.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\ArmyList.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\ArmyList.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:34:19.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GamePage.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\VisualTunic488\\AppData\\Local\\Temp\\.vsdbgsrc\\86f0544b7170b725d7a241c962c157275ea48990\\GamePage.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\VisualTunic488\\AppData\\Local\\Temp\\.vsdbgsrc\\86f0544b7170b725d7a241c962c157275ea48990\\GamePage.xaml.sg.cs [Read Only]",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowCsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:21:29.581Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Charging.cs",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
               "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Charging.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T04:50:02.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Fighting.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:49:46.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Morale.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:49:33.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Shooting.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:49:20.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Phase.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T02:19:21.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Game.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAADwv3cAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T01:04:07.689Z",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
+              "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:10:12.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
-              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T01:03:24.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml.cs",
@@ -162,15 +128,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\MainPage.xaml",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\MainPage.xaml",
-              "RelativeToolTip": "TableTopWarGameSimulator\\MainPage.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\GamePage.xaml",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\GamePage.xaml",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\GamePage.xaml",
+              "RelativeToolTip": "TableTopWarGameSimulator\\GamePage.xaml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAADoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-16T21:10:12.443Z",
+              "WhenOpened": "2024-05-16T17:10:40.033Z",
               "EditorCaption": ""
             },
             {
@@ -181,22 +147,87 @@
               "RelativeDocumentMoniker": "TableTopWarGameSimulator\\GamePage.xaml.cs",
               "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\GamePage.xaml.cs",
               "RelativeToolTip": "TableTopWarGameSimulator\\GamePage.xaml.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEEAAAAaAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAAAowLwAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T17:10:41.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GamePage.xaml",
-              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\GamePage.xaml",
-              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\GamePage.xaml",
-              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\GamePage.xaml",
-              "RelativeToolTip": "TableTopWarGameSimulator\\GamePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-16T17:10:40.033Z",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T01:04:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T01:03:24.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Phase.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Phase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T02:19:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Shooting.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Shooting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T04:49:20.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Morale.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Morale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T04:49:33.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Fighting.cs",
+              "DocumentMoniker": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeDocumentMoniker": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "ToolTip": "E:\\Github Desktop\\Repositories\\ThreadingBrokeAgainLmao\\ThreadingC-\\TableTopWarGameSimulator\\TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "RelativeToolTip": "TableTopWarGameSimulator\\Model\\Game\\Phase\\Fighting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T04:49:46.835Z",
               "EditorCaption": ""
             }
           ]
