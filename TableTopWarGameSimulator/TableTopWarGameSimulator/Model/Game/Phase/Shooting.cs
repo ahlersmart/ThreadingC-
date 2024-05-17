@@ -8,6 +8,11 @@ namespace TableTopWarGameSimulator
 {
     internal class Shooting : Phase
     {
+        public string name { get; set; }
+
+        public Shooting() {
+            name = "Shooting";
+        }
         public bool doPhase(Grid grid, int currentRow, int currentColumn, int targetRow, int targetColumn, int playerRound)
         {
             return grid.rangeAttack(currentRow, currentColumn, targetRow, targetColumn, playerRound);

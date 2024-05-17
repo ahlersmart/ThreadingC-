@@ -27,6 +27,7 @@ namespace TableTopWarGameSimulator
 
             BindingContext = this;
             InitializeComponent();
+            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
         }
 
         protected override void OnNavigatedTo(NavigatedToEventArgs args)
@@ -48,10 +49,22 @@ namespace TableTopWarGameSimulator
             }
             Trace.WriteLine("Test LoadMap Started3");
         }
+
         private void Button_Clicked(object sender, EventArgs e)
+        {
+            game.nextPhase();
+            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
+            LoadMap();
+            Navigation.PushAsync(new GamePage());
+        }
+
+        private void Button_Clicked_Next_Phase(object sender, EventArgs e)
         {
             gridGame.Clear();
             LoadMap();
+            Navigation.PushAsync(new GamePage());
+            Trace.WriteLine(game.currentPhase.name);
+            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
         }
 
         private void createArmies()
@@ -103,8 +116,6 @@ namespace TableTopWarGameSimulator
             ArmyList RedArmy = new ArmyList("RedArmy", "Player2", "Faction1", army);
             this.armies.Add(blueArmy);
             this.armies.Add(RedArmy);
-
-            
 
             /**
             List<string> list = new();

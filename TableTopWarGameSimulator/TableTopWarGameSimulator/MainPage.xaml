@@ -36,22 +36,13 @@
 
         <Label Grid.Row="4" Grid.Column="0" Text="Factions" FontSize="24" TextColor="White" />
 
-        <CollectionView Margin="0, 20, 20, 20"
-                        Grid.Row="4" Grid.Column="1" >
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Faction One</x:String>
-                    <x:String>Faction Two</x:String>
-                    <x:String>Faction Three</x:String>
-                    <x:String>Faction Four</x:String>
-                    <x:String>Faction Five</x:String>
-                </x:Array>
-            </CollectionView.ItemsSource>
+        <CollectionView Margin="0, 20, 20, 20" 
+                        Grid.Row="4" Grid.Column="1" x:Name="primaryMissionPicker">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="0, 5">
                         <Frame BackgroundColor="White">
-                            <Label Text="{Binding .}"
+                            <Label Text="{Binding armyName}"
                                        FontSize="16" 
                                        TextColor="Black"/>
                         </Frame>

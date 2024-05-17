@@ -5,9 +5,9 @@
              x:Class="TableTopWarGameSimulator.GamePage">
     <ScrollView>
         <Grid RowDefinitions="70,70,70,70,70,70,70,1080">
-            <Button Text="Next Phase" Clicked="Button_Clicked" Margin="10" WidthRequest="500"/>
+            <Button Text="Next Phase" Clicked="Button_Clicked_Next_Phase" Margin="10" WidthRequest="500"/>
 
-            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="200">Notifications Will Display Here</Label>
+            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="200" Text="Notifications will show here"/>
             <Picker x:Name="locationPickerXOne" Title="Select Location X1" 
                     Grid.Row="1" WidthRequest="200">
                 <Picker.Items>
@@ -34,7 +34,7 @@
                 </Picker.Items>
             </Picker>
             <Picker x:Name="locationPickerYOne" Title="Select Location Y1" 
-                    Grid.Row="3" WidthRequest="200">
+                    Grid.Row="2" WidthRequest="200">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
@@ -59,7 +59,7 @@
                 </Picker.Items>
             </Picker>
             <Picker x:Name="locationPickerXTwo" Title="Select Location X2" 
-                    Grid.Row="2" WidthRequest="200">
+                    Grid.Row="3" WidthRequest="200">
                 <Picker.Items>
                     <x:String>1</x:String>
                     <x:String>2</x:String>
