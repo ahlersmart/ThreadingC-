@@ -15,6 +15,7 @@ namespace TableTopWarGameSimulator
         private List<ArmyList> armies { get; set; } = new();
         private Game game { get; set; }
         private ObservableCollection<GridRow> gridGame = new();
+        private string finalTextLabel = "Current Phase is Movement.";
 
         public GamePage()
         {
@@ -27,7 +28,7 @@ namespace TableTopWarGameSimulator
 
             BindingContext = this;
             InitializeComponent();
-            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
+            notificationLabel.Text = "Notifications will show here." + finalTextLabel;
         }
 
         protected override void OnNavigatedTo(NavigatedToEventArgs args)
@@ -50,12 +51,29 @@ namespace TableTopWarGameSimulator
             Trace.WriteLine("Test LoadMap Started3");
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Button_Clicked_Confirm_Action(object sender, EventArgs e)
         {
-            game.nextPhase();
-            notificationLabel.Text = "New phase is: " + game.currentPhase.name;
-            LoadMap();
-            Navigation.PushAsync(new GamePage());
+            //make if else statements for all phases
+            if (game.currentPhase.name == "Movement") { 
+                Phase thisPhase = game.currentPhase;
+                int xOne = locationPickerXOne.SelectedIndex + 1;
+                int yOne = locationPickerYOne.SelectedIndex + 1;
+                int xTwo = locationPickerXTwo.SelectedIndex + 1;
+                int yTwo = locationPickerYTwo.SelectedIndex + 1;      
+                thisPhase.doPhase(game.grid, xOne, yOne, xTwo, yTwo, game.playerRound);
+                finalTextLabel = ". Action Performed. Unit Moved.";
+                gridGame.Clear();
+                LoadMap();
+                Navigation.PushAsync(new GamePage());
+            } 
+            else if (game.currentPhase.name == "Shooting")
+            {
+
+            }
+            else if (game.currentPhase.name == "Fighting")
+            {
+
+            }
         }
 
         private void Button_Clicked_Next_Phase(object sender, EventArgs e)

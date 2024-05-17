@@ -7,7 +7,7 @@
         <Grid RowDefinitions="70,70,70,70,70,70,70,1080">
             <Button Text="Next Phase" Clicked="Button_Clicked_Next_Phase" Margin="10" WidthRequest="500"/>
 
-            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="200" Text="Notifications will show here"/>
+            <Label Grid.Row="6" x:Name="notificationLabel" WidthRequest="500" Text="Notifications will show here" HorizontalTextAlignment="Center"/>
             <Picker x:Name="locationPickerXOne" Title="Select Location X1" 
                     Grid.Row="1" WidthRequest="200">
                 <Picker.Items>
@@ -108,7 +108,7 @@
                     <x:String>20</x:String>
                 </Picker.Items>
             </Picker>
-            <Button Text="Confirm Action" Clicked="Button_Clicked" Margin="10" Grid.Row="5" WidthRequest="200"/>
+            <Button Text="Confirm Action" Clicked="Button_Clicked_Confirm_Action" Margin="10" Grid.Row="5" WidthRequest="200"/>
 
             <dg:DataGrid Grid.Row="7" ItemsSource="{Binding GridGame}" SelectionMode="Single"
                          SelectedItem="{Binding SelectedRow}"
