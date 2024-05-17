@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TableTopWarGameSimulator
+build_property.ProjectDir = D:\Users\frank\source\repos\ThreadingC-\TableTopWarGameSimulator\TableTopWarGameSimulator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/EditUnit.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.EditUnit.xaml
+build_metadata.AdditionalFiles.TargetPath = EditUnit.xaml
+build_metadata.AdditionalFiles.RelativePath = EditUnit.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/FactionOverview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.FactionOverview.xaml
+build_metadata.AdditionalFiles.TargetPath = FactionOverview.xaml
+build_metadata.AdditionalFiles.RelativePath = FactionOverview.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/GamePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.GamePage.xaml
+build_metadata.AdditionalFiles.TargetPath = GamePage.xaml
+build_metadata.AdditionalFiles.RelativePath = GamePage.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/ScoreScreen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.ScoreScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = ScoreScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = ScoreScreen.xaml
+
+[D:/Users/frank/source/repos/ThreadingC-/TableTopWarGameSimulator/TableTopWarGameSimulator/UnitOverview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TableTopWarGameSimulator.UnitOverview.xaml
+build_metadata.AdditionalFiles.TargetPath = UnitOverview.xaml
+build_metadata.AdditionalFiles.RelativePath = UnitOverview.xaml
